@@ -13,10 +13,6 @@ use think\Controller;
 use think\facade\Log;
 class Administrator extends Controller
 {
-    public function test()
-    {
-        dump(11);
-    }
     public function administrators_message()
     {
         $res = $this->connect_database()->name('administrators')->where('show_status',1)->find();
