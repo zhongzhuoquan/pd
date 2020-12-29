@@ -15,7 +15,6 @@ class Administrator extends Controller
 {
     public function administrators_message()
     {
-        dump(11);
         $res = $this->connect_database()->name('administrators')->where('show_status',1)->find();
         if($res){
             $message = ['status'=>200 , 'message' => $res];
