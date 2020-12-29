@@ -1,0 +1,3039 @@
+---------------------------------------------------------------
+[2020-12-23T08:50:23+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/DataMessage/get_record_message
+[ info ] array (
+  'user_name' => '',
+  'devices_name' => '',
+  'option_value' => '0',
+  'time_value' => '',
+)
+---------------------------------------------------------------
+[2020-12-23T08:50:23+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/DataMessage/get_record_message
+[运行时间：0.023887s] [吞吐率：41.86req/s] [内存消耗：2,529.22kb] [文件加载：65]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '204',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywPVwVl2u4ULlO63b',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;user_name\\&quot;:\\&quot;\\&quot;,\\&quot;devices_name\\&quot;:\\&quot;\\&quot;,\\&quot;option_value\\&quot;:\\&quot;0\\&quot;,\\&quot;time_value\\&quot;:\\&quot;\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000354s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT `t`.`id`,u.name as username,d.name as devicesname,`t`.`create_time`,t.total_time as record FROM `test_record` `t` LEFT JOIN `user` `u` ON `u`.`id`=`t`.`user_id` LEFT JOIN `devices` `d` ON `d`.`id`=`t`.`devices_id` [ RunTime:0.000705s ]
+---------------------------------------------------------------
+[2020-12-23T08:50:23+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/DataMessage/get_message_count_message
+[运行时间：0.029466s] [吞吐率：33.94req/s] [内存消耗：2,863.59kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyFiedy7mEmG6TALL',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000301s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `test_record` WHERE  `create_time` BETWEEN '2020-12-23 00:00:00' AND '2020-12-23 23:59:59' [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `test_record` WHERE  `create_time` BETWEEN '2020-12-16 00:00:00' AND '2020-12-23 00:00:00' [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `test_record` WHERE  `create_time` BETWEEN '1970-01-01 00:00:00' AND '2020-12-23 00:00:00' [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `train_record` WHERE  `create_time` BETWEEN '2020-12-23 00:00:00' AND '2020-12-23 23:59:59' [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `train_record` WHERE  `create_time` BETWEEN '2020-12-16 00:00:00' AND '2020-12-23 00:00:00' [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `train_record` WHERE  `create_time` BETWEEN '1970-01-01 00:00:00' AND '2020-12-23 00:00:00' [ RunTime:0.000235s ]
+---------------------------------------------------------------
+[2020-12-23T09:02:30+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.027968s] [吞吐率：35.76req/s] [内存消耗：2,878.58kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '350',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9YgV0WtY7Pm3IplB',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => '1234',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000302s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT u.id as uid,`u`.`status` FROM `user` `u` LEFT JOIN `devices` `d` ON `u`.`devices_id`=`d`.`id` WHERE  `u`.`name` = 'test'  AND `u`.`password` = '1234'  AND `d`.`name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000261s ]
+---------------------------------------------------------------
+[2020-12-23T09:02:32+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.036618s] [吞吐率：27.31req/s] [内存消耗：2,853.40kb] [文件加载：72]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '351',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoBQATUEOBiKCVATQ',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => '12345',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000408s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000873s ]
+[ sql ] [ SQL ] SELECT u.id as uid,`u`.`status` FROM `user` `u` LEFT JOIN `devices` `d` ON `u`.`devices_id`=`d`.`id` WHERE  `u`.`name` = 'test'  AND `u`.`password` = '12345'  AND `d`.`name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000482s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000694s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] UPDATE `devices`  SET `available_count` = '970'  WHERE  `name` = 'KHY-PD-1-000003' [ RunTime:0.004429s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_time` = '2020-12-23 09:02:32'  WHERE  `id` = 24 [ RunTime:0.003772s ]
+---------------------------------------------------------------
+[2020-12-23T09:03:41+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/trainingMode_record_save_api
+[运行时间：0.033403s] [吞吐率：29.94req/s] [内存消耗：2,902.57kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '2786',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryV18X7A8CpnahQeSB',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000003\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.625,3.25,4.875,6.5,8.125,9.75,11.375,13,14.625,16.25,17.875,19.5,21.125,22.75,24.375,26,27.625,29.25,30.875,32.5,34.125,35.75,37.375,39,40.625,42.25,43.875,45.5,47.125,48.75,50.375,52,53.625,55.25,56.875,58.5,60.125,61.75,63.375,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,63.375,61.75,60.125,58.5,56.875,55.25,53.625,52,50.375,48.75,47.125,45.5,43.875,42.25,40.625,39,37.375,35.75,34.125,32.5,30.875,29.25,27.625,26,24.375,22.75,21.125,19.5,17.875,16.25,14.625,13,11.375,9.75,8.125,6.5,4.875,3.25,1.625,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.625,3.25,4.875,6.5,8.125,9.75,11.375,13,14.625,16.25,17.875,19.5,21.125,22.75,24.375,26,27.625,29.25,30.875,32.5,34.125,35.75,37.375,39,40.625,42.25,43.875,45.5,47.125,48.75,50.375,52,53.625,55.25,56.875,58.5,60.125,61.75,63.375,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,63.375,61.75,60.125,58.5,56.875,55.25,53.625,52,50.375,48.75,47.125,45.5,43.875,42.25,40.625,39,37.375,35.75,34.125,32.5,30.875,29.25,27.625,26,24.375,22.75,21.125,19.5,17.875,16.25,14.625,13,11.375,9.75,8.125,6.5,4.875,3.25,1.625,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.0999999999999999,2,3.1,4.2,6.7,7.8,9.5,11.5,13.4,15.1,17.599999999999998,20.9,22.1,22.6,23.200000000000003,25.1,26.3,26.8,29.299999999999997,32.1,36.6,39.7,42.199999999999996,43,43,44.1,45,45.300000000000004,46.6,50.3,51.7,53.400000000000006,55.00000000000001,56.39999999999999,57.3,58.4,60.3,62.6,63.4,62.8,63.7,64,64.2,67,67.9,67.60000000000001,67.9,67.60000000000001,67.60000000000001,67.60000000000001,65.60000000000001,64.8,66.8,67.60000000000001,65.4,65.4,64.8,63.7,62,62,61.5,62.6,63.4,62.8,61.5,59.199999999999996,57.8,53.400000000000006,49.7,49.2,48.6,47.199999999999996,41.099999999999994,39.4,39.7,36,36.3,36.9,36.9,34.9,34.9,34.1,32.4,29.9,28.799999999999997,28.499999999999996,26.3,24.9,22.3,18.4,15.1,14.799999999999999,14.2,12,8.9,5.3,1.4000000000000001,-2,-2,-2,-2,-3.4000000000000004,-3.4000000000000004,-3.1,-3.5999999999999996,-3.4000000000000004,-3.1,-3.5999999999999996,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-4.2,-3.4000000000000004,-3.5999999999999996,-2.5,-2.5,-2,-2.8000000000000003,-2.8000000000000003,-2.8000000000000003,-2.8000000000000003,-2.8000000000000003,-2.8000000000000003],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[\\&quot;64.35\\&quot;,\\&quot;46.19\\&quot;,\\&quot;49.94\\&quot;,\\&quot;93.50\\&quot;,null,null],[\\&quot;33.87\\&quot;,\\&quot;0.00\\&quot;,\\&quot;5.69\\&quot;,\\&quot;0.00\\&quot;,null,null]],\\&quot;trainName\\&quot;:\\&quot;SlowMuscleCoordinationTest\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test'  AND `devices_id` = '6' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000264s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'SlowMuscleCoordinationTest' LIMIT 1 [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score` , `round` , `create_time`) VALUES (24 , 6 , 2 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.625,3.25,4.875,6.5,8.125,9.75,11.375,13,14.625,16.25,17.875,19.5,21.125,22.75,24.375,26,27.625,29.25,30.875,32.5,34.125,35.75,37.375,39,40.625,42.25,43.875,45.5,47.125,48.75,50.375,52,53.625,55.25,56.875,58.5,60.125,61.75,63.375,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,63.375,61.75,60.125,58.5,56.875,55.25,53.625,52,50.375,48.75,47.125,45.5,43.875,42.25,40.625,39,37.375,35.75,34.125,32.5,30.875,29.25,27.625,26,24.375,22.75,21.125,19.5,17.875,16.25,14.625,13,11.375,9.75,8.125,6.5,4.875,3.25,1.625,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.625,3.25,4.875,6.5,8.125,9.75,11.375,13,14.625,16.25,17.875,19.5,21.125,22.75,24.375,26,27.625,29.25,30.875,32.5,34.125,35.75,37.375,39,40.625,42.25,43.875,45.5,47.125,48.75,50.375,52,53.625,55.25,56.875,58.5,60.125,61.75,63.375,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,65,63.375,61.75,60.125,58.5,56.875,55.25,53.625,52,50.375,48.75,47.125,45.5,43.875,42.25,40.625,39,37.375,35.75,34.125,32.5,30.875,29.25,27.625,26,24.375,22.75,21.125,19.5,17.875,16.25,14.625,13,11.375,9.75,8.125,6.5,4.875,3.25,1.625,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1.0999999999999999,2,3.1000000000000001,4.2000000000000002,6.7000000000000002,7.7999999999999998,9.5,11.5,13.4,15.1,17.599999999999998,20.899999999999999,22.100000000000001,22.600000000000001,23.200000000000003,25.100000000000001,26.300000000000001,26.800000000000001,29.299999999999997,32.100000000000001,36.600000000000001,39.700000000000003,42.199999999999996,43,43,44.100000000000001,45,45.300000000000004,46.600000000000001,50.299999999999997,51.700000000000003,53.400000000000006,55.000000000000007,56.399999999999991,57.299999999999997,58.399999999999999,60.299999999999997,62.600000000000001,63.399999999999999,62.799999999999997,63.700000000000003,64,64.200000000000003,67,67.900000000000006,67.600000000000009,67.900000000000006,67.600000000000009,67.600000000000009,67.600000000000009,65.600000000000009,64.799999999999997,66.799999999999997,67.600000000000009,65.400000000000006,65.400000000000006,64.799999999999997,63.700000000000003,62,62,61.5,62.600000000000001,63.399999999999999,62.799999999999997,61.5,59.199999999999996,57.799999999999997,53.400000000000006,49.700000000000003,49.200000000000003,48.600000000000001,47.199999999999996,41.099999999999994,39.399999999999999,39.700000000000003,36,36.299999999999997,36.899999999999999,36.899999999999999,34.899999999999999,34.899999999999999,34.100000000000001,32.399999999999999,29.899999999999999,28.799999999999997,28.499999999999996,26.300000000000001,24.899999999999999,22.300000000000001,18.399999999999999,15.1,14.799999999999999,14.199999999999999,12,8.9000000000000004,5.2999999999999998,1.4000000000000001,-2,-2,-2,-2,-3.4000000000000004,-3.4000000000000004,-3.1000000000000001,-3.5999999999999996,-3.4000000000000004,-3.1000000000000001,-3.5999999999999996,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-4.2000000000000002,-3.4000000000000004,-3.5999999999999996,-2.5,-2.5,-2,-2.8000000000000003,-2.8000000000000003,-2.8000000000000003,-2.8000000000000003,-2.8000000000000003,-2.8000000000000003],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]' , '[[\"64.35\",\"46.19\",\"49.94\",\"93.50\",null,null],[\"33.87\",\"0.00\",\"5.69\",\"0.00\",null,null]]' , 2 , '2020-12-23 09:03:41') [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[2020-12-23T09:38:44+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022029s] [吞吐率：45.39req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryltCFD72hwBIbS3vL',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T09:38:47+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023053s] [吞吐率：43.38req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryvfyrert4Ev9hWcmP',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T09:41:07+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022829s] [吞吐率：43.80req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryKRMsCeQMJ1nEqCgg',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T09:41:13+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.036573s] [吞吐率：27.34req/s] [内存消耗：2,853.40kb] [文件加载：72]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '351',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryb0tnmKldi3mJKRYS',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => '12345',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000313s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT u.id as uid,`u`.`status` FROM `user` `u` LEFT JOIN `devices` `d` ON `u`.`devices_id`=`d`.`id` WHERE  `u`.`name` = 'test'  AND `u`.`password` = '12345'  AND `d`.`name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000473s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000270s ]
+[ sql ] [ SQL ] UPDATE `devices`  SET `available_count` = '969'  WHERE  `name` = 'KHY-PD-1-000003' [ RunTime:0.005711s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_time` = '2020-12-23 09:41:13'  WHERE  `id` = 24 [ RunTime:0.003180s ]
+---------------------------------------------------------------
+[2020-12-23T09:43:42+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/user/user_information_api
+[运行时间：0.024778s] [吞吐率：40.36req/s] [内存消耗：2,533.29kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '251',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAz9pOBB7xOcxxpmW',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT u.id id,u.name name,u.year year,u.sex sex,u.password password FROM `user` `u` LEFT JOIN `devices` `d` ON `d`.`id`=`u`.`devices_id` WHERE  `d`.`name` = 'KHY-PD-1-000003'  AND `u`.`name` = 'test' [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[2020-12-23T09:43:42+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TestMode/enduranceMuscleTest_record_get_api
+[运行时间：0.027991s] [吞吐率：35.73req/s] [内存消耗：2,915.86kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '251',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryt4H9tChsdJAgKwcO',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000307s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT `u`.`id` FROM `user` `u` LEFT JOIN `devices` `d` ON `d`.`id`=`u`.`devices_id` WHERE  `d`.`name` = 'KHY-PD-1-000003'  AND `u`.`name` = 'test' LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `test_record` WHERE  `devices_id` = 6  AND `user_id` = 24 [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[2020-12-23T09:51:07+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_login
+[运行时间：0.024675s] [吞吐率：40.53req/s] [内存消耗：2,485.51kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '172',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6f6hIHtMoq3R4D51',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;username\\&quot;:\\&quot;test\\&quot;,\\&quot;password\\&quot;:\\&quot;1234\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T09:52:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_login
+[运行时间：0.027401s] [吞吐率：36.50req/s] [内存消耗：2,447.26kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '170',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0GLRTxBkHPeVELyC',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;username\\&quot;:\\&quot;zzq\\&quot;,\\&quot;password\\&quot;:\\&quot;zzq\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T09:52:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_user_devices_count_api
+[运行时间：0.022468s] [吞吐率：44.51req/s] [内存消耗：2,479.98kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0hH7hE1U5U2FBKXl',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000458s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000711s ]
+[ sql ] [ SQL ] SELECT d.name ,COUNT(u.devices_id) as devices_user_count FROM `devices` `d` LEFT JOIN `user` `u` ON `d`.`id`=`u`.`devices_id` GROUP BY `d`.`id` ORDER BY `d`.`name` ASC [ RunTime:0.000457s ]
+---------------------------------------------------------------
+[2020-12-23T09:52:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_disk_message
+[运行时间：0.030794s] [吞吐率：32.47req/s] [内存消耗：1,586.21kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7MVaii7eVaXYyQBQ',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+---------------------------------------------------------------
+[2020-12-23T09:52:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_devices_message
+[运行时间：0.026323s] [吞吐率：37.99req/s] [内存消耗：2,886.56kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryR0UdFeTfFF5KEIhA',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000294s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000580s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  ( available_count<10 ) [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[2020-12-23T09:52:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_basic_message_api
+[运行时间：0.060588s] [吞吐率：16.50req/s] [内存消耗：2,863.80kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysD8Jg4AyBQvkA37E',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000298s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `devices` [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `user` [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `test_record` [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `train_record` [ RunTime:0.000197s ]
+---------------------------------------------------------------
+[2020-12-23T09:56:44+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.015042s] [吞吐率：66.48req/s] [内存消耗：1,584.71kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '351',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYt4gaLMbzCc5ByAe',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => '12345',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected 'if' (T_IF)[/var/www/html/pd/application/api/controller/User.php:261]
+---------------------------------------------------------------
+[2020-12-23T10:01:57+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/DataMessage/get_record_message
+[ info ] array (
+  'user_name' => '',
+  'devices_name' => '',
+  'option_value' => '0',
+  'time_value' => '',
+)
+---------------------------------------------------------------
+[2020-12-23T10:01:57+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/DataMessage/get_record_message
+[运行时间：0.023464s] [吞吐率：42.62req/s] [内存消耗：2,529.22kb] [文件加载：65]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '204',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryehAJQfk9fKdIId3N',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;user_name\\&quot;:\\&quot;\\&quot;,\\&quot;devices_name\\&quot;:\\&quot;\\&quot;,\\&quot;option_value\\&quot;:\\&quot;0\\&quot;,\\&quot;time_value\\&quot;:\\&quot;\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000297s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SELECT `t`.`id`,u.name as username,d.name as devicesname,`t`.`create_time`,t.total_time as record FROM `test_record` `t` LEFT JOIN `user` `u` ON `u`.`id`=`t`.`user_id` LEFT JOIN `devices` `d` ON `d`.`id`=`t`.`devices_id` [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[2020-12-23T10:01:57+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/DataMessage/get_message_count_message
+[运行时间：0.026758s] [吞吐率：37.37req/s] [内存消耗：2,863.59kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQnUfOanGh8hJmqG2',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000588s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `test_record` WHERE  `create_time` BETWEEN '2020-12-23 00:00:00' AND '2020-12-23 23:59:59' [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `test_record` WHERE  `create_time` BETWEEN '2020-12-16 00:00:00' AND '2020-12-23 00:00:00' [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `test_record` WHERE  `create_time` BETWEEN '1970-01-01 00:00:00' AND '2020-12-23 00:00:00' [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `train_record` WHERE  `create_time` BETWEEN '2020-12-23 00:00:00' AND '2020-12-23 23:59:59' [ RunTime:0.000275s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `train_record` WHERE  `create_time` BETWEEN '2020-12-16 00:00:00' AND '2020-12-23 00:00:00' [ RunTime:0.000239s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `train_record` WHERE  `create_time` BETWEEN '1970-01-01 00:00:00' AND '2020-12-23 00:00:00' [ RunTime:0.000243s ]
+---------------------------------------------------------------
+[2020-12-23T10:02:06+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/DataMessage/get_record_message
+[ info ] array (
+  'user_name' => '',
+  'devices_name' => '',
+  'option_value' => '1',
+  'time_value' => '',
+)
+---------------------------------------------------------------
+[2020-12-23T10:02:06+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/DataMessage/get_record_message
+[运行时间：0.023244s] [吞吐率：43.02req/s] [内存消耗：2,552.64kb] [文件加载：65]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '204',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary98WLKKfXsNWgzLzu',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;user_name\\&quot;:\\&quot;\\&quot;,\\&quot;devices_name\\&quot;:\\&quot;\\&quot;,\\&quot;option_value\\&quot;:\\&quot;1\\&quot;,\\&quot;time_value\\&quot;:\\&quot;\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000293s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT `t`.`id`,u.name as username,d.name devicesname,`t`.`create_time`,t.score as record,`tn`.`desc` FROM `train_record` `t` LEFT JOIN `user` `u` ON `u`.`id`=`t`.`user_id` LEFT JOIN `devices` `d` ON `d`.`id`=`t`.`devices_id` LEFT JOIN `train` `tn` ON `tn`.`id`=`t`.`train_id` [ RunTime:0.000599s ]
+---------------------------------------------------------------
+[2020-12-23T10:16:49+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022879s] [吞吐率：43.71req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRNJLjkr6vagLzuvZ',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:17:08+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022879s] [吞吐率：43.71req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywtaOS4AUiXgUN7R8',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:17:18+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022862s] [吞吐率：43.74req/s] [内存消耗：2,476.02kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryf8ouTGsJpa5avCVX',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:18:27+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.020877s] [吞吐率：47.90req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryw515MiJcIoDmXAGo',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:19:46+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023980s] [吞吐率：41.70req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytNqtaeXpIVgOhZO1',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:20:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021910s] [吞吐率：45.64req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHWEGMEP2Sr8OD9IO',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:20:46+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023031s] [吞吐率：43.42req/s] [内存消耗：2,476.02kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIedkzFVBk6mV8eNg',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:21:05+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021880s] [吞吐率：45.70req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPM4HLqfxHvr2W01E',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:21:13+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022012s] [吞吐率：45.43req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXfucEMtAABXRnBiU',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:21:51+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023663s] [吞吐率：42.26req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryI0HGa0BGYhL2NAEQ',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:21:57+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022622s] [吞吐率：44.21req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymkAO3yCHoKNVdvHg',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:22:13+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.024054s] [吞吐率：41.57req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIJvQHqUf4vqYYTrl',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:22:26+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022248s] [吞吐率：44.95req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3ildZlMOOdKncJF8',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:22:50+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022755s] [吞吐率：43.95req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1SmM9Kfd6QB7hXrw',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:23:03+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021172s] [吞吐率：47.23req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQoZfvsqjTPDjtF6u',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:23:09+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023907s] [吞吐率：41.83req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryEpp82yBgZDsaG3OT',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:23:27+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023474s] [吞吐率：42.60req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryEQsgUpnxvS9DwNWu',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:23:40+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.020863s] [吞吐率：47.93req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2e4fH84Xw5tDvX7c',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:24:29+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022890s] [吞吐率：43.69req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8Cn9FB8k9JHubzZy',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:24:39+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021867s] [吞吐率：45.73req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZdogbQ2AzUG5SivN',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:24:46+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022195s] [吞吐率：45.06req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryetgSFEqTBbzeI0yW',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:25:02+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022217s] [吞吐率：45.01req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXbnw1QVIpGOYNj1m',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:25:08+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021596s] [吞吐率：46.30req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybxUSbERqSylAk8KL',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:25:12+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023341s] [吞吐率：42.84req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywlmUPzmn4szsEfEi',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:25:16+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023941s] [吞吐率：41.77req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNXAZ1g96eyd38ZYR',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:25:21+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022545s] [吞吐率：44.36req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQ20JQaBwY12qzbYK',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:25:35+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.028675s] [吞吐率：34.87req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryW6LG3KyVVzJbaLEm',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:25:49+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.031642s] [吞吐率：31.60req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3TAM5X7bHG5KUVfk',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:25:58+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021213s] [吞吐率：47.14req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMjiDSg5dTia9OJtc',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:26:00+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.024468s] [吞吐率：40.87req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryawm4dGpk2g6F5fBH',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:26:07+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.020933s] [吞吐率：47.77req/s] [内存消耗：2,476.02kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyBy1RJKssRd4jpoB',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:30:24+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023504s] [吞吐率：42.55req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVKL5vfGIuKbPvgmo',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:30:32+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021784s] [吞吐率：45.91req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryEaqVO8u2X53dG63M',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:30:36+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.025036s] [吞吐率：39.94req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAZ7vtAy2ajmil773',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:30:58+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022968s] [吞吐率：43.54req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybuhOgiNAlYkBU5Tu',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:31:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023540s] [吞吐率：42.48req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRcNq3eMT1wZiL9kh',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:34:23+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021473s] [吞吐率：46.57req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFnf5VVEHdIXVsOH6',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:34:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022342s] [吞吐率：44.76req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOB3dDsrjoIDfk2od',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:34:59+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022037s] [吞吐率：45.38req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycpwLv55L8kB5bBdn',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:37:45+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022148s] [吞吐率：45.15req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCtt7ZtqO0u2EtofN',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:37:56+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021034s] [吞吐率：47.54req/s] [内存消耗：2,476.02kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylHnQRAG2CcXncJju',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:38:17+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023266s] [吞吐率：42.98req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryH03FmOMNKW2zUfAo',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:40:48+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021278s] [吞吐率：47.00req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLHFT7NflCStlOEbh',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:40:58+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021123s] [吞吐率：47.34req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryocSF9MrsChWkpCqK',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:41:33+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.025211s] [吞吐率：39.67req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarykBQkphAJptsAtCpa',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:41:38+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021873s] [吞吐率：45.72req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4HUQqy0hBOAgnzQx',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:41:48+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021164s] [吞吐率：47.25req/s] [内存消耗：2,476.02kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryuX7EKv5oiXxWnKc0',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:41:53+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022801s] [吞吐率：43.86req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPU0a8ewNIpRkUvx4',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:42:06+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023004s] [吞吐率：43.47req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryE4obuxUiStGadbmZ',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:42:48+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021158s] [吞吐率：47.26req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4cCiuY7sowlCPrTP',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:43:07+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023520s] [吞吐率：42.52req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymESJI7Be111BwUxQ',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:44:25+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021900s] [吞吐率：45.66req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLscX2fVWvfc1sNAF',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:44:29+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023873s] [吞吐率：41.89req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySBxY1dcxmb0jByhs',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:46:30+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022509s] [吞吐率：44.43req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRRcVey1FKlDagUEB',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:47:48+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023995s] [吞吐率：41.68req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIiLNCivAYXYAFoAs',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:48:05+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022463s] [吞吐率：44.52req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryTs4GJdZnMdghVR0N',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:48:22+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021525s] [吞吐率：46.46req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUACf3eXHhMKSMyOc',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:48:27+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021638s] [吞吐率：46.22req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarybaw8WtWWz1xKfsEZ',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:48:44+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021486s] [吞吐率：46.54req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqVom3OrvC3NNnfnL',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:49:40+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023560s] [吞吐率：42.44req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfi9Ur0WajN8AQNqP',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:49:47+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.024708s] [吞吐率：40.47req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJUKLEyW9BVNz6DBl',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:50:10+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023646s] [吞吐率：42.29req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycHDSAxuEmOiGeh8m',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:50:18+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023591s] [吞吐率：42.39req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryycIXmIe1DMZalwTK',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:50:26+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021536s] [吞吐率：46.43req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryniKPdJCbpLJswyRV',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:50:36+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.020895s] [吞吐率：47.86req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8AeIFGSn0tpW2Lwd',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T10:50:51+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022918s] [吞吐率：43.63req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3hnjO64myd6IjBtU',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T11:12:34+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021804s] [吞吐率：45.86req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryL37ZBiPrz9EFFgZz',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T11:12:45+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021758s] [吞吐率：45.96req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrYkLpv4l3SseV5Fr',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T11:15:02+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021814s] [吞吐率：45.84req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFBFbIztcvzRtS539',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T11:15:24+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.021763s] [吞吐率：45.95req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydIq2yhx98hsmZSRV',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T11:16:03+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022702s] [吞吐率：44.05req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryDmXmgqVQzkuDd6B7',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T11:25:45+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023436s] [吞吐率：42.67req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYIlK8zlLHfpjqBkx',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T11:26:19+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.022948s] [吞吐率：43.58req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4Gxt0n8Ar57BcCo0',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T11:26:33+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.024981s] [吞吐率：40.03req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMLsDL2knQyRm345B',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T11:27:49+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrators_message
+[运行时间：0.023582s] [吞吐率：42.41req/s] [内存消耗：2,475.63kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysRyxZ3p04AZDhoyR',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T11:49:30+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.026878s] [吞吐率：37.20req/s] [内存消耗：2,878.58kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '350',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoICEWPlkOi5yHEbD',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => '1234',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT u.id as uid,`u`.`status` FROM `user` `u` LEFT JOIN `devices` `d` ON `u`.`devices_id`=`d`.`id` WHERE  `u`.`name` = 'test'  AND `u`.`password` = '1234'  AND `d`.`name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000455s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[2020-12-23T11:49:33+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.038840s] [吞吐率：25.75req/s] [内存消耗：2,853.40kb] [文件加载：72]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '351',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysFxdfdZhLBq0FWUN',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => '12345',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000349s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT u.id as uid,`u`.`status` FROM `user` `u` LEFT JOIN `devices` `d` ON `u`.`devices_id`=`d`.`id` WHERE  `u`.`name` = 'test'  AND `u`.`password` = '12345'  AND `d`.`name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000546s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] UPDATE `devices`  SET `available_count` = '968'  WHERE  `name` = 'KHY-PD-1-000003' [ RunTime:0.005688s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `login_time` = '2020-12-23 11:49:33'  WHERE  `id` = 24 [ RunTime:0.003560s ]
+---------------------------------------------------------------
+[2020-12-23T13:58:53+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/user/user_information_api
+[运行时间：0.024461s] [吞吐率：40.88req/s] [内存消耗：2,533.29kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '251',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUDcAzCK0bEEAcLKR',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000319s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000669s ]
+[ sql ] [ SQL ] SELECT u.id id,u.name name,u.year year,u.sex sex,u.password password FROM `user` `u` LEFT JOIN `devices` `d` ON `d`.`id`=`u`.`devices_id` WHERE  `d`.`name` = 'KHY-PD-1-000003'  AND `u`.`name` = 'test' [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[2020-12-23T14:04:10+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TestMode/enduranceMuscleTest_record_get_api
+[运行时间：0.026353s] [吞吐率：37.95req/s] [内存消耗：2,915.86kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '251',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjbDAwghZZV3Qk1cX',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `u`.`id` FROM `user` `u` LEFT JOIN `devices` `d` ON `d`.`id`=`u`.`devices_id` WHERE  `d`.`name` = 'KHY-PD-1-000003'  AND `u`.`name` = 'test' LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000505s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000003' LIMIT 1 [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000447s ]
+[ sql ] [ SQL ] SELECT * FROM `test_record` WHERE  `devices_id` = 6  AND `user_id` = 24 [ RunTime:0.000242s ]
+---------------------------------------------------------------
+[2020-12-23T14:56:44+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_login
+[运行时间：0.025919s] [吞吐率：38.58req/s] [内存消耗：2,447.26kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '170',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryC0Y3ZVusVoGu1pwP',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;username\\&quot;:\\&quot;zzq\\&quot;,\\&quot;password\\&quot;:\\&quot;zzq\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T14:56:45+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_basic_message_api
+[运行时间：0.037982s] [吞吐率：26.33req/s] [内存消耗：2,863.80kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycrA5I0qn1XEB4QCi',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010530s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `devices` [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000529s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `user` [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `test_record` [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `train_record` [ RunTime:0.000241s ]
+---------------------------------------------------------------
+[2020-12-23T14:56:45+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_disk_message
+[运行时间：0.026904s] [吞吐率：37.17req/s] [内存消耗：1,586.21kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZj9FKk617KnFtqUS',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+---------------------------------------------------------------
+[2020-12-23T14:56:45+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_user_devices_count_api
+[运行时间：0.042395s] [吞吐率：23.59req/s] [内存消耗：2,479.98kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryK6zZr4tMAebzxsVf',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001806s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000612s ]
+[ sql ] [ SQL ] SELECT d.name ,COUNT(u.devices_id) as devices_user_count FROM `devices` `d` LEFT JOIN `user` `u` ON `d`.`id`=`u`.`devices_id` GROUP BY `d`.`id` ORDER BY `d`.`name` ASC [ RunTime:0.000392s ]
+---------------------------------------------------------------
+[2020-12-23T14:56:45+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_devices_message
+[运行时间：0.036162s] [吞吐率：27.65req/s] [内存消耗：2,886.56kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9LQ0I4VDuslK5ctO',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000325s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000524s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  ( available_count<10 ) [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[2020-12-23T14:57:43+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_user_devices_count_api
+[运行时间：0.020900s] [吞吐率：47.85req/s] [内存消耗：2,479.98kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBIKlG8UdBnjhAaH1',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000274s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000602s ]
+[ sql ] [ SQL ] SELECT d.name ,COUNT(u.devices_id) as devices_user_count FROM `devices` `d` LEFT JOIN `user` `u` ON `d`.`id`=`u`.`devices_id` GROUP BY `d`.`id` ORDER BY `d`.`name` ASC [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[2020-12-23T14:57:43+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_disk_message
+[运行时间：0.028416s] [吞吐率：35.19req/s] [内存消耗：1,586.21kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycsije6eIAsJRpk6C',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+---------------------------------------------------------------
+[2020-12-23T14:57:43+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_basic_message_api
+[运行时间：0.040900s] [吞吐率：24.45req/s] [内存消耗：2,863.80kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary77ZTCG8mZQVIHZwE',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000276s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `devices` [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `user` [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `test_record` [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `train_record` [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[2020-12-23T14:57:43+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_devices_message
+[运行时间：0.024171s] [吞吐率：41.37req/s] [内存消耗：2,886.56kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryL4sNyTT1BT0fJVu4',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000321s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  ( available_count<10 ) [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[2020-12-23T15:31:24+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_login
+[运行时间：0.035078s] [吞吐率：28.51req/s] [内存消耗：2,447.26kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '170',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8Vk0YuAoo3TSKYmm',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;username\\&quot;:\\&quot;zzq\\&quot;,\\&quot;password\\&quot;:\\&quot;zzq\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T15:31:24+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_devices_message
+[运行时间：0.027494s] [吞吐率：36.37req/s] [内存消耗：2,886.56kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryEH6vJY0RAUPuBWk7',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000304s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  ( available_count<10 ) [ RunTime:0.000268s ]
+---------------------------------------------------------------
+[2020-12-23T15:31:24+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_basic_message_api
+[运行时间：0.053222s] [吞吐率：18.79req/s] [内存消耗：2,863.80kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryukpDkaAAauyi5n2D',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002659s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `devices` [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `user` [ RunTime:0.000187s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `test_record` [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT COUNT(`id`) AS tp_count FROM `train_record` [ RunTime:0.000220s ]
+---------------------------------------------------------------
+[2020-12-23T15:31:24+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_user_devices_count_api
+[运行时间：0.046185s] [吞吐率：21.65req/s] [内存消耗：2,479.98kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaAXAq0lcTTp9SbQ8',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006704s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT d.name ,COUNT(u.devices_id) as devices_user_count FROM `devices` `d` LEFT JOIN `user` `u` ON `d`.`id`=`u`.`devices_id` GROUP BY `d`.`id` ORDER BY `d`.`name` ASC [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[2020-12-23T15:31:24+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/BasicMessage/get_disk_message
+[运行时间：0.036184s] [吞吐率：27.64req/s] [内存消耗：1,586.21kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNFLvARDCM6B6qyJw',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '',
+)
+---------------------------------------------------------------
+[2020-12-23T15:36:17+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.023381s] [吞吐率：42.77req/s] [内存消耗：2,541.33kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '739',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8081',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryhQGp1oQRF87K47IP',
+  'referer' => 'http://localhost:8081/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'sex' => '1',
+  'year' => '1111',
+  'phone' => '12345678912',
+  'password' => '1234',
+  'rpassword' => '1235',
+  'devices_id' => 'KHY-PD-1-000003',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000298s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `u` LEFT JOIN `devices` `d` ON `u`.`devices_id`=`d`.`id` WHERE  `u`.`name` = 'test'  AND `d`.`name` = 'KHY-PD-1-000003' [ RunTime:0.000436s ]
+---------------------------------------------------------------
+[2020-12-23T15:42:36+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_register
+[运行时间：0.022276s] [吞吐率：44.89req/s] [内存消耗：2,501.45kb] [文件加载：69]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '164',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryU3G4c0YsN7BHjhAE',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;username\\&quot;:\\&quot;\\&quot;,\\&quot;password\\&quot;:\\&quot;\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: name[/var/www/html/pd/application/manage/controller/Administrator.php:60]
+---------------------------------------------------------------
+[2020-12-23T15:42:46+08:00] 14.118.228.97 GET 106.52.43.100/pd/public/manage.php/Administrator/administrator_register
+[运行时间：0.014227s] [吞吐率：70.29req/s] [内存消耗：1,599.87kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-12-23T15:43:40+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_register
+[运行时间：0.022058s] [吞吐率：45.34req/s] [内存消耗：2,501.83kb] [文件加载：69]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '213',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryXontik5heiSRKvDo',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;dname\\&quot;:\\&quot;test\\&quot;,\\&quot;dphone\\&quot;:\\&quot;12345612312\\&quot;,\\&quot;dpassword\\&quot;:\\&quot;1234\\&quot;,\\&quot;drpassword\\&quot;:\\&quot;1234\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [8]未定义数组索引: name[/var/www/html/pd/application/manage/controller/Administrator.php:60]
+---------------------------------------------------------------
+[2020-12-23T15:44:27+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_register
+[运行时间：0.022946s] [吞吐率：43.58req/s] [内存消耗：2,495.67kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '263',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryrsopq9Vqrqjx1TWB',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;\\&quot;,\\&quot;phone\\&quot;:\\&quot;\\&quot;,\\&quot;password\\&quot;:\\&quot;\\&quot;,\\&quot;rpassword\\&quot;:\\&quot;\\&quot;,\\&quot;dname\\&quot;:\\&quot;test\\&quot;,\\&quot;dphone\\&quot;:\\&quot;12345678912\\&quot;,\\&quot;dpassword\\&quot;:\\&quot;1234\\&quot;,\\&quot;drpassword\\&quot;:\\&quot;1234\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T15:44:36+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_register
+[运行时间：0.024079s] [吞吐率：41.53req/s] [内存消耗：2,495.67kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '263',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYOaIa5YBQUH00M13',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;\\&quot;,\\&quot;phone\\&quot;:\\&quot;\\&quot;,\\&quot;password\\&quot;:\\&quot;\\&quot;,\\&quot;rpassword\\&quot;:\\&quot;\\&quot;,\\&quot;dname\\&quot;:\\&quot;test\\&quot;,\\&quot;dphone\\&quot;:\\&quot;12345678912\\&quot;,\\&quot;dpassword\\&quot;:\\&quot;1234\\&quot;,\\&quot;drpassword\\&quot;:\\&quot;1234\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T15:46:33+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_register
+[运行时间：0.021558s] [吞吐率：46.39req/s] [内存消耗：2,495.67kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '263',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxYJIsg0xpU1AhCiM',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;\\&quot;,\\&quot;phone\\&quot;:\\&quot;\\&quot;,\\&quot;password\\&quot;:\\&quot;\\&quot;,\\&quot;rpassword\\&quot;:\\&quot;\\&quot;,\\&quot;dname\\&quot;:\\&quot;test\\&quot;,\\&quot;dphone\\&quot;:\\&quot;12345678912\\&quot;,\\&quot;dpassword\\&quot;:\\&quot;1234\\&quot;,\\&quot;drpassword\\&quot;:\\&quot;1234\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+---------------------------------------------------------------
+[2020-12-23T15:49:22+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_register
+[运行时间：0.026492s] [吞吐率：37.75req/s] [内存消耗：2,558.21kb] [文件加载：68]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '209',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary6rMVuy6subelLCWD',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test\\&quot;,\\&quot;phone\\&quot;:\\&quot;12345678912\\&quot;,\\&quot;password\\&quot;:\\&quot;1234\\&quot;,\\&quot;rpassword\\&quot;:\\&quot;1234\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [0]method not exist:think\db\Query->create[/var/www/html/pd/thinkphp/library/think/db/Query.php:180]
+---------------------------------------------------------------
+[2020-12-23T15:53:17+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_register
+[ info ] array (
+  'name' => 'test',
+  'phone' => '12345678912',
+  'password' => '1234',
+  'create_time' => '2020-12-23 15:53:17',
+)
+---------------------------------------------------------------
+[2020-12-23T15:53:17+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/manage.php/Administrator/administrator_register
+[运行时间：0.025884s] [吞吐率：38.63req/s] [内存消耗：2,561.84kb] [文件加载：69]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'manage'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '209',
+  'accept' => 'application/json, text/plain, */*',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryd3qi8PdUSBwC1TuI',
+  'origin' => 'http://localhost:8080',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test\\&quot;,\\&quot;phone\\&quot;:\\&quot;12345678912\\&quot;,\\&quot;password\\&quot;:\\&quot;1234\\&quot;,\\&quot;rpassword\\&quot;:\\&quot;1234\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [0]method not exist:think\db\Query->create[/var/www/html/pd/thinkphp/library/think/db/Query.php:180]

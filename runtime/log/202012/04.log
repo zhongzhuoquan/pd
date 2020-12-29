@@ -1,0 +1,1700 @@
+---------------------------------------------------------------
+[2020-12-04T08:48:21+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.014683s] [吞吐率：68.11req/s] [内存消耗：1,584.87kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymBsRXIAPIBQfdJA9',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T08:48:21+08:00] 14.118.228.97 OPTIONS 106.52.43.100/pd/public/api.php/user
+[运行时间：0.016747s] [吞吐率：59.71req/s] [内存消耗：1,650.42kb] [文件加载：62]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-12-04T08:48:40+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.014618s] [吞吐率：68.41req/s] [内存消耗：1,584.88kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiwPpB3ua1YwSZz4J',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T08:48:40+08:00] 14.118.228.97 OPTIONS 106.52.43.100/pd/public/api.php/user
+[运行时间：0.016520s] [吞吐率：60.53req/s] [内存消耗：1,650.42kb] [文件加载：62]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2020-12-04T08:49:06+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.014688s] [吞吐率：68.08req/s] [内存消耗：1,584.88kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygTUPCqkOcVFHx0Sz',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T08:52:44+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.017343s] [吞吐率：57.66req/s] [内存消耗：1,584.88kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiqNBMJgFQpVKvfxG',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T08:58:22+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.015128s] [吞吐率：66.10req/s] [内存消耗：1,584.88kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCRQMT1NDCDAC4X7U',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T09:10:20+08:00] 14.118.228.97 OPTIONS 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.021133s] [吞吐率：47.32req/s] [内存消耗：1,637.46kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'access-control-request-method' => 'POST',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'access-control-request-headers' => 'content-type',
+  'accept' => '*/*',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8]未定义数组索引: data[/var/www/html/pd/application/api/controller/TrainingMode.php:18]
+---------------------------------------------------------------
+[2020-12-04T09:17:49+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.015661s] [吞吐率：63.85req/s] [内存消耗：1,585.28kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryZZPAG8zPnu5eNjBb',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T09:20:59+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.014938s] [吞吐率：66.94req/s] [内存消耗：1,585.78kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJZm7QAASdj1oe5ZP',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T09:42:36+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.019111s] [吞吐率：52.33req/s] [内存消耗：1,642.13kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4uADCWxvWmU2ywlp',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/var/www/html/pd/application/api/controller/TrainingMode.php:18]
+---------------------------------------------------------------
+[2020-12-04T09:44:16+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.015850s] [吞吐率：63.09req/s] [内存消耗：1,634.45kb] [文件加载：62]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypCrTHshuBY65dGGA',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [0]variable type error： array[/var/www/html/pd/thinkphp/library/think/Response.php:403]
+---------------------------------------------------------------
+[2020-12-04T09:45:22+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.017001s] [吞吐率：58.82req/s] [内存消耗：1,642.18kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryB1v9E2tdbK92mJwL',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [2]json_decode() expects parameter 1 to be string, array given[/var/www/html/pd/application/api/controller/TrainingMode.php:18]
+---------------------------------------------------------------
+[2020-12-04T09:47:53+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.016480s] [吞吐率：60.68req/s] [内存消耗：1,634.51kb] [文件加载：62]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoskCK00dPfXY9AP5',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [0]variable type error： array[/var/www/html/pd/thinkphp/library/think/Response.php:403]
+---------------------------------------------------------------
+[2020-12-04T09:48:42+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.015342s] [吞吐率：65.18req/s] [内存消耗：1,585.28kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqgW39BQvhwuEcSES',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T09:50:04+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.015035s] [吞吐率：66.51req/s] [内存消耗：1,586.95kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryf6Y1VakM5RWoBid4',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '$name' (T_VARIABLE)[/var/www/html/pd/application/api/controller/TrainingMode.php:20]
+---------------------------------------------------------------
+[2020-12-04T09:51:16+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.017094s] [吞吐率：58.50req/s] [内存消耗：1,640.65kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQcuhh6ac0Al7nTWW',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [0]致命错误: Cannot use object of type stdClass as array[/var/www/html/pd/application/api/controller/TrainingMode.php:20]
+---------------------------------------------------------------
+[2020-12-04T09:52:35+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.015351s] [吞吐率：65.14req/s] [内存消耗：1,641.94kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryoJhtUpbaNFT1O2lh',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [8]未定义变量: dat[/var/www/html/pd/application/api/controller/TrainingMode.php:23]
+---------------------------------------------------------------
+[2020-12-04T09:53:15+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.014414s] [吞吐率：69.38req/s] [内存消耗：1,586.27kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryh57QK2svSGI2Ig3A',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T10:00:21+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.016036s] [吞吐率：62.36req/s] [内存消耗：1,586.98kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryVc2vISkQJkYWCA6J',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '$train_name' (T_VARIABLE)[/var/www/html/pd/application/api/controller/TrainingMode.php:26]
+---------------------------------------------------------------
+[2020-12-04T10:00:53+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.015227s] [吞吐率：65.67req/s] [内存消耗：1,586.55kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryY9YzYBGnyzFrASqK',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T10:10:13+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.014872s] [吞吐率：67.24req/s] [内存消耗：1,586.92kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUouaxCm5zwy0q9HJ',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [0]语法解析错误: syntax error, unexpected '}'[/var/www/html/pd/application/api/controller/TrainingMode.php:31]
+---------------------------------------------------------------
+[2020-12-04T10:10:46+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.016708s] [吞吐率：59.85req/s] [内存消耗：1,643.59kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary7W08h04WNiyWASAB',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [8]未定义变量: score_relax[/var/www/html/pd/application/api/controller/TrainingMode.php:30]
+---------------------------------------------------------------
+[2020-12-04T10:11:40+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.014523s] [吞吐率：68.86req/s] [内存消耗：1,587.74kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryuMwkAlyzQ8weaBDr',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T10:20:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.014624s] [吞吐率：68.38req/s] [内存消耗：1,589.70kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCQEMqgcQk7NPo8DY',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+---------------------------------------------------------------
+[2020-12-04T10:37:10+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.026451s] [吞吐率：37.81req/s] [内存消耗：2,854.34kb] [文件加载：73]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarysIvIocpmEyN0mhLT',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000299s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000226s ]
+---------------------------------------------------------------
+[2020-12-04T11:05:53+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.030359s] [吞吐率：32.94req/s] [内存消耗：2,899.00kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarya6qwZ4rMFUjOnBHD',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000415s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000426s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000464s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'total_time' doesn't have a default value[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T11:07:54+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.029932s] [吞吐率：33.41req/s] [内存消耗：2,907.05kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3LXMKEPl2awq9rfs',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000315s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000600s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000448s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000506s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '[[],100]' for column 'score_relax' at row 1[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T11:09:15+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.030089s] [吞吐率：33.23req/s] [内存消耗：2,907.70kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryB9XoIwAy1JBUUQLO',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000311s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000255s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000490s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000555s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '[[[],100],100]' for column 'score_relax' at row 1[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T11:10:35+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.030033s] [吞吐率：33.30req/s] [内存消耗：2,907.17kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOaTMWX5DQLeGBw84',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000286s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000574s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000219s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000477s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'standard_data' doesn't have a default value[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T11:11:50+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.030033s] [吞吐率：33.30req/s] [内存消耗：2,907.67kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPDUoh2OLfB0bakS2',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000317s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000436s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000522s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'standard_data' doesn't have a default value[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T11:12:26+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.030088s] [吞吐率：33.24req/s] [内存消耗：2,907.20kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLeeTAc8CaIVeGxqJ',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000375s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000414s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000490s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'standard_data' doesn't have a default value[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T11:13:26+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.031122s] [吞吐率：32.13req/s] [内存消耗：2,907.25kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryu7X3roLVhYm2STCh',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000299s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000459s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000497s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000565s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'standard_data' doesn't have a default value[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T11:14:12+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.028309s] [吞吐率：35.32req/s] [内存消耗：2,908.45kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8hCxjWuKYE8an69y',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000317s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000506s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'standard_data' doesn't have a default value[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T11:15:28+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.030120s] [吞吐率：33.20req/s] [内存消耗：2,913.92kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarym2b57KHhtttMrVju',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000283s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000509s ]
+[ error ] [10501]SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'standard_data' at row 1[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T11:17:55+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.034646s] [吞吐率：28.86req/s] [内存消耗：2,857.61kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygcnb7C1mg50OLVNG',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000312s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000515s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score_relax` , `score_keep` , `score_shrink` , `score_shrink_rate` , `score_height` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]' , 1 , 1 , 1 , 1 , 1 , 1 , '2020-12-04 11:17:55') [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[2020-12-04T11:19:20+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.017544s] [吞吐率：57.00req/s] [内存消耗：1,653.53kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarykVh4ubFCybiFrOrl',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [2]array_push() expects parameter 1 to be array, integer given[/var/www/html/pd/application/api/controller/TrainingMode.php:38]
+---------------------------------------------------------------
+[2020-12-04T11:25:19+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.017202s] [吞吐率：58.13req/s] [内存消耗：1,653.03kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryTfn3Ep4O8510ypJa',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [2]array_push() expects parameter 1 to be array, integer given[/var/www/html/pd/application/api/controller/TrainingMode.php:38]
+---------------------------------------------------------------
+[2020-12-04T11:26:14+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.036491s] [吞吐率：27.40req/s] [内存消耗：2,862.08kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2igsXrARzWYUo77C',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000296s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000422s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000506s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score_relax` , `score_keep` , `score_shrink` , `score_shrink_rate` , `score_height` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]' , 1 , 1 , 1 , 1 , 1 , 2 , '2020-12-04 11:26:14') [ RunTime:0.000489s ]
+---------------------------------------------------------------
+[2020-12-04T11:28:13+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.017014s] [吞吐率：58.78req/s] [内存消耗：1,653.53kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypS3hw1nEkbUVYldA',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [2]array_push() expects parameter 1 to be array, integer given[/var/www/html/pd/application/api/controller/TrainingMode.php:38]
+---------------------------------------------------------------
+[2020-12-04T11:32:25+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[  ] 
+---------------------------------------------------------------
+[2020-12-04T11:32:25+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.031257s] [吞吐率：31.99req/s] [内存消耗：2,861.23kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryehfN7sgRqjyKaGVQ',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000320s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000416s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score_relax` , `score_keep` , `score_shrink` , `score_shrink_rate` , `score_height` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]' , 1 , 1 , 1 , 1 , 1 , 1 , '2020-12-04 11:32:25') [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[2020-12-04T11:33:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[ info ] array (
+  0 => 
+  array (
+    0 => 100,
+    1 => 0,
+    2 => 40,
+    3 => 43,
+    4 => NULL,
+    5 => NULL,
+  ),
+)
+---------------------------------------------------------------
+[2020-12-04T11:33:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.031102s] [吞吐率：32.15req/s] [内存消耗：2,861.23kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqEJAF3cAXqc2Lnmi',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000308s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000250s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000512s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score_relax` , `score_keep` , `score_shrink` , `score_shrink_rate` , `score_height` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]' , 1 , 1 , 1 , 1 , 1 , 1 , '2020-12-04 11:33:37') [ RunTime:0.000281s ]
+---------------------------------------------------------------
+[2020-12-04T11:34:47+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[ info ] array (
+  0 => 
+  array (
+    0 => 100,
+    1 => 0,
+    2 => 40,
+    3 => 43,
+    4 => NULL,
+    5 => NULL,
+  ),
+  1 => 
+  array (
+    0 => 100,
+    1 => 0,
+    2 => 40,
+    3 => 43,
+    4 => NULL,
+    5 => NULL,
+  ),
+)
+---------------------------------------------------------------
+[2020-12-04T11:34:47+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.018183s] [吞吐率：55.00req/s] [内存消耗：1,668.16kb] [文件加载：65]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydvqgZLwgCBPBwEXZ',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [2]array_push() expects parameter 1 to be array, integer given[/var/www/html/pd/application/api/controller/TrainingMode.php:40]
+---------------------------------------------------------------
+[2020-12-04T11:35:40+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[ info ] array (
+  0 => 100,
+  1 => 0,
+  2 => 40,
+  3 => 43,
+  4 => NULL,
+  5 => NULL,
+)
+---------------------------------------------------------------
+[2020-12-04T11:35:40+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.017616s] [吞吐率：56.77req/s] [内存消耗：1,668.16kb] [文件加载：65]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUFak4x2HB6PF8a8F',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [2]array_push() expects parameter 1 to be array, integer given[/var/www/html/pd/application/api/controller/TrainingMode.php:40]
+---------------------------------------------------------------
+[2020-12-04T11:38:38+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[ info ] 1
+---------------------------------------------------------------
+[2020-12-04T11:38:38+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.034355s] [吞吐率：29.11req/s] [内存消耗：2,861.23kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2GyF4GN8J5YFWiB9',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000264s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000491s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score_relax` , `score_keep` , `score_shrink` , `score_shrink_rate` , `score_height` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]' , 1 , 1 , 1 , 1 , 1 , 1 , '2020-12-04 11:38:38') [ RunTime:0.000258s ]
+---------------------------------------------------------------
+[2020-12-04T11:39:54+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[ info ] 2
+---------------------------------------------------------------
+[2020-12-04T11:39:54+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.015650s] [吞吐率：63.90req/s] [内存消耗：1,668.16kb] [文件加载：65]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary60RsMxHRu4M6lXc0',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [2]array_push() expects parameter 1 to be array, integer given[/var/www/html/pd/application/api/controller/TrainingMode.php:40]
+---------------------------------------------------------------
+[2020-12-04T11:43:47+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[ info ] 2
+---------------------------------------------------------------
+[2020-12-04T11:43:47+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.019224s] [吞吐率：52.02req/s] [内存消耗：1,668.16kb] [文件加载：65]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryJYtNiyX4ldaV4bxd',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ error ] [2]array_push() expects parameter 1 to be array, integer given[/var/www/html/pd/application/api/controller/TrainingMode.php:42]
+---------------------------------------------------------------
+[2020-12-04T11:47:13+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[ info ] 1
+---------------------------------------------------------------
+[2020-12-04T11:47:13+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[ info ] array (
+  0 => 
+  array (
+    0 => 100,
+    1 => 0,
+    2 => 40,
+    3 => 43,
+    4 => NULL,
+    5 => NULL,
+  ),
+)
+---------------------------------------------------------------
+[2020-12-04T11:47:13+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.032208s] [吞吐率：31.05req/s] [内存消耗：2,917.55kb] [文件加载：81]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1Pyqdtw0pCeX7dYk',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000331s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000463s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000522s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '[]' for column 'score_keep' at row 1[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T11:52:42+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.044216s] [吞吐率：22.62req/s] [内存消耗：2,852.08kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '934',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBhvOUtZ3S8vFJvZ5',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000449s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000548s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]' , '[[100,0,40,43,null,null],[100,0,40,43,null,null]]' , 2 , '2020-12-04 11:52:42') [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[2020-12-04T11:54:45+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TestMode/enduranceMuscleTest_record_get_api
+[运行时间：0.027159s] [吞吐率：36.82req/s] [内存消耗：2,914.08kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '253',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryUtairCjMxkPEjegI',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test01',
+  'devices_id' => 'KHY-PD-1-000000',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT `u`.`id` FROM `user` `u` LEFT JOIN `devices` `d` ON `d`.`id`=`u`.`devices_id` WHERE  `d`.`name` = 'KHY-PD-1-000000'  AND `u`.`name` = 'test01' LIMIT 1 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000536s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test_record` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT * FROM `test_record` WHERE  `devices_id` = 1  AND `user_id` = 10 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[2020-12-04T12:00:13+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.026715s] [吞吐率：37.43req/s] [内存消耗：2,508.22kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '353',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAIKJH2ACwBhHmxdu',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test01',
+  'password' => '12345',
+  'devices_id' => 'KHY-PD-1-000000',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000321s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `user` `u` LEFT JOIN `devices` `d` ON `u`.`devices_id`=`d`.`id` WHERE  `u`.`name` = 'test01'  AND `u`.`password` = '12345'  AND `d`.`name` = 'KHY-PD-1-000000' [ RunTime:0.000401s ]
+---------------------------------------------------------------
+[2020-12-04T12:00:34+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[ info ] app\common\model\TrainRecord::__set_state(array(
+   'pk' => 'id',
+   'table' => 'train_record',
+   'exists' => true,
+   'replace' => false,
+   'force' => false,
+   'updateWhere' => NULL,
+   'connection' => 
+  array (
+  ),
+   'query' => NULL,
+   'name' => 'TrainRecord',
+   'auto' => 
+  array (
+  ),
+   'insert' => 
+  array (
+  ),
+   'update' => 
+  array (
+  ),
+   'queryInstance' => NULL,
+   'error' => NULL,
+   'defaultSoftDelete' => NULL,
+   'globalScope' => 
+  array (
+  ),
+   'field' => 
+  array (
+    0 => 'id',
+    1 => 'user_id',
+    2 => 'train_id',
+    3 => 'devices_id',
+    4 => 'standard_data',
+    5 => 'test_data',
+    6 => 'score',
+    7 => 'round',
+    8 => 'create_time',
+  ),
+   'json' => 
+  array (
+  ),
+   'jsonAssoc' => false,
+   'jsonType' => 
+  array (
+  ),
+   'disuse' => 
+  array (
+  ),
+   'readonly' => 
+  array (
+  ),
+   'type' => 
+  array (
+  ),
+   'data' => 
+  array (
+    'user_id' => 2,
+    'devices_id' => 1,
+    'train_id' => 1,
+    'standard_data' => '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]',
+    'test_data' => '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]',
+    'score' => '[[100,0,40,43,null,null]]',
+    'round' => 1,
+    'create_time' => '2020-12-04 12:00:34',
+    'update_time' => 1607054434,
+    'id' => '7',
+  ),
+   'set' => 
+  array (
+  ),
+   'origin' => 
+  array (
+    'user_id' => 2,
+    'devices_id' => 1,
+    'train_id' => 1,
+    'standard_data' => '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]',
+    'test_data' => '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]',
+    'score' => '[[100,0,40,43,null,null]]',
+    'round' => 1,
+    'create_time' => '2020-12-04 12:00:34',
+    'update_time' => 1607054434,
+    'id' => '7',
+  ),
+   'withAttr' => 
+  array (
+  ),
+   'parent' => NULL,
+   'relation' => 
+  array (
+  ),
+   'together' => NULL,
+   'relationWrite' => NULL,
+   'observerClass' => NULL,
+   'withEvent' => true,
+   'autoWriteTimestamp' => true,
+   'createTime' => 'create_time',
+   'updateTime' => 'update_time',
+   'dateFormat' => false,
+   'visible' => 
+  array (
+  ),
+   'hidden' => 
+  array (
+  ),
+   'append' => 
+  array (
+  ),
+   'resultSetType' => 'array',
+))
+---------------------------------------------------------------
+[2020-12-04T12:00:34+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.038145s] [吞吐率：26.22req/s] [内存消耗：2,850.79kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '728',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary4ly4zBND20Q62BmX',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000378s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000826s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000466s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000535s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]' , '[[100,0,40,43,null,null]]' , 1 , '2020-12-04 12:00:34') [ RunTime:0.000474s ]
+---------------------------------------------------------------
+[2020-12-04T12:02:50+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[ info ] 8
+---------------------------------------------------------------
+[2020-12-04T12:02:50+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.038715s] [吞吐率：25.83req/s] [内存消耗：2,850.82kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '732',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryNO2xsTd7uAMD7vNW',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000370s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000277s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000488s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]' , '[[100,0,40,43,null,null]]' , 1 , '2020-12-04 12:02:50') [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[2020-12-04T12:03:54+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.038440s] [吞吐率：26.01req/s] [内存消耗：2,851.40kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '743',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0q9gFAEN1Q5NiuWH',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0.4,0,0.4,0.4,0]],\\&quot;score\\&quot;:[[99,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000366s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000779s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.40000000000000002,0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0]]' , '[[99,0,40,43,null,null]]' , 1 , '2020-12-04 12:03:54') [ RunTime:0.000598s ]
+---------------------------------------------------------------
+[2020-12-04T12:05:02+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.032399s] [吞吐率：30.86req/s] [内存消耗：2,902.48kb] [文件加载：80]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '745',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBgIkTgQiqlCkyNS1',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0.4,0,0,0,0,0,0,0,0,0,0,0,0.4,0,0,0,0,0,0.4,0,0,0,0,0.4,0,0,0,0,0,0,0.4,0.4,0,0,0,0,0,0,0,0,0,0,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.4,0,0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]],\\&quot;score\\&quot;:[[99,0,42,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000370s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000509s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000468s ]
+[ error ] [10501]SQLSTATE[HY000]: General error: 1364 Field 'standard_data' doesn't have a default value[/var/www/html/pd/thinkphp/library/think/db/Connection.php:764]
+---------------------------------------------------------------
+[2020-12-04T12:07:37+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.034192s] [吞吐率：29.25req/s] [内存消耗：2,852.77kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '812',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryCUoJXs8F8C9TaJRJ',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,-0.4,-0.4,-0.4,-0.4,-0.4,0,0,0,0,-1.6,-2.4,-2.4,-1.2,-0.4,-1.2,-0.4,0,0,0,-0.4,-0.8,-0.8,0,-0.4,-0.4,-0.4,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,-0.4,0,0,0,0,0,0,-0.4,-0.4,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,-0.4,-0.4,-0.4]],\\&quot;score\\&quot;:[[100,0,40,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000321s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000504s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,0,0,0,0,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,0,0,0,0,-1.6000000000000001,-2.3999999999999999,-2.3999999999999999,-1.2,-0.40000000000000002,-1.2,-0.40000000000000002,0,0,0,-0.40000000000000002,-0.80000000000000004,-0.80000000000000004,0,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,0,-0.40000000000000002,0,0,0,0,0,0,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,0,0,0,-0.40000000000000002,0,0,0,0,0,0,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002]]' , '[[100,0,40,43,null,null]]' , 1 , '2020-12-04 12:07:37') [ RunTime:0.000244s ]
+---------------------------------------------------------------
+[2020-12-04T12:12:11+08:00] 14.118.228.97 POST 106.52.43.100/pd/public/api.php/TrainingMode/basicTestOfSlowMuscle_record_save_api
+[运行时间：0.037585s] [吞吐率：26.61req/s] [内存消耗：2,976.72kb] [文件加载：74]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '7237',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary1gaIAWBb8xX9t0t2',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'data' => '{\\&quot;name\\&quot;:\\&quot;test01\\&quot;,\\&quot;devicesId\\&quot;:\\&quot;KHY-PD-1-000000\\&quot;,\\&quot;standardArray\\&quot;:[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],\\&quot;testArray\\&quot;:[[0,0,0,0,0,-0.4,-0.4,0,0,0,-0.4,0,0,0,0,0,-0.4,-0.4,0,0,0,-0.4,-0.4,0,-0.4,-0.4,-0.4,0,-0.4,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,-0.4,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,-0.4,0,0,-0.4,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,-0.4,0,0,0,0,0,-0.4,-0.4,-0.4,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,-0.4,0,0,0,0,0,0],[0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0,0,0.4,0.4,0.4,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0.4,0.4,0,0,0,0,0.4,0.4,0.4,0.4,0,0,0.4,0.4,0.4],[0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,-2.4,-2,-2,-2.8000000000000003,-2.8000000000000003,-2.8000000000000003,-3.2,-4.8,-4.3999999999999995,-3.5999999999999996],[0,1.2,0.8,10.8,15.2,17.599999999999998,16.400000000000002,14.799999999999999,12,9.2,4.3999999999999995,0,-0.8,-2,-2.4,-1.6,-2,-1.6,-1.2,-1.6,-1.2,-1.2,-1.2,-1.6,-2,-1.6,-1.2,-1.2,-1.2,-1.2,-1.6,-1.6,-0.8,-1.6,-1.6,-0.8,-0.8,-0.8,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-0.8,-1.2,-0.8,-0.8,-1.2,-1.2,-1.2,-1.2,-1.2,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-2,-1.6,-0.8,0.8,3.5999999999999996,5.2,5.2,6.4,7.6,8,8,8,8,8,8,2.4,-0.4,-0.8,-0.8,-0.8,-0.8,-0.8,-0.8,-1.6,-2,-2.4,-2.4,-2.4,-2.4,-2,-2,-2.4,-2,-2.4,-2.8000000000000003,-2,-2,-2,-2.4,-2.4,-2,-2.4,-2.4,-2.4,-2.4,-2.8000000000000003,-2.4,-2.4,-3.2,-2.8000000000000003,-2.8000000000000003,-2.4,-2,-2,-2.8000000000000003,-2.8000000000000003,-2.4,-2.4,-2,-2,-2,-2,-2,-2,-1.6,-2,-1.6,-2,-2,-2.4,-2,-2,-2,-2.4,-2,-2.4,-2.8000000000000003,-2.4,-2,-2,-2,-2,-2,-2,-2.8000000000000003,-2,-1.6,-2,-1.6,-2,-1.6,-2,-2.4,-2,-2.4,-2,-1.2,-2.4,-1.6,-2,-1.6,-1.6,-1.6,-2,-2,-1.6,-2.4,-2.4,-2,-2,-1.6,-1.6,-2.4,-1.6,-2,-2.4,-1.6,-2,-2,-1.6,-1.6,-2,-2,-2.4,-2.8000000000000003,-2,-2,-2.4,-2.4,-2,-1.6,-1.2,-1.2,-1.6,-1.2,-1.2,-1.2,-1.6,-1.6,-2.8000000000000003,-2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.6,-1.6,-1.6,-1.6,-1.6,-2,-2.4,-2.4,-2,-1.6,-1.2,-1.2,-1.2,-0.8],[0,-0.4,0,0.4,0.4,0,0,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0,0.4,0.4,0,0.4,0,0,0,0,0.4,0.4,0,0,0.4,0.4,0.4,0.4,0.4,0,0,0.4,0.4,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0,0,-0.4,-0.4,0,0,0,0,0,0,-0.4,0.4,0.4,0,0,0.4,0,0,0.4,0,0,0,0.4,0.4,0,0,-0.8,0,0,0,0,-0.4,-0.8,-0.8,-0.4,-0.4,0,0,0,-0.4,0,-0.8,-0.8,0,-0.4,-0.4,-0.4,-0.4,-0.4,0,0,0,-0.4,0,-0.4,-0.4,-0.4,-0.4,-0.8,-1.2,-1.2,-0.8,-0.4,-0.4,-0.4,0,0,0,0,-0.4,-0.4,-0.8,0,0,0,0,-0.8,-0.8,0.4,0.4,0,0,0,0.4,0.4,-0.4,-0.4,0,0.4,0,0,0.4,0.4,0,0,-0.4,-0.4,0,0.4,0.4,0.4,0.4,0.4,0,0,0,0,0,0.4,0.4,0.4,-0.4,0,0.4,0.4,0.4,0.4,0.4,0,0,0.4,0.4,0.4,0.4,0,0.4,0.4,0,0,0.4,0,0,0.4,0,0,0.4,0.4,0.4,0.4,0.4],[0,0,0.4,0.4,0.4,0,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0.4,0.4,0.4,0.4,0.4,0.4,0.4,-1.2,-1.2,-1.6,-0.4,-0.4,0.4,3.2,3.2,3.2,6,6.4,6.4,6.4,3.2,2,0.4,0.4,0.8,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0.4,0,0.4,0.4,0,-0.4,0,0,-0.4,-0.4,-0.4,-1.6,-1.2,-1.2,-1.6,-1.6,-1.2,-0.8,-0.8,-0.8,-2,-1.2,-1.6,-1.6,-2,-1.6,-1.6,-1.2,-2,-2,-1.6,-1.6,-2,-0.8,-0.8,-0.8,-0.8,-1.2,-1.2,-0.8,-0.8,-0.8,-0.8,-0.8,0,0,-0.8,-0.4,0,-0.4,-0.4,-0.8,0,-0.4,0,0,0.4,0,0,0,0,0.4,0.4,0.4,0,-0.4,0,0,0,0.4,0.4,0.4,-0.4,-0.4,-0.4,0,0,-0.8,-0.4,0,0,0.4,0,0,-0.4,-0.8,-0.4,-0.4,0,-0.4,-0.8,-0.8,-0.4,-0.4,-0.8,-1.6,-1.6,-1.2,-1.2,-1.2,-1.2,-1.2,-1.6,-1.6,-1.2,-1.2,-0.8,-1.2,-0.8]],\\&quot;score\\&quot;:[[100,0,40,43,null,null],[95,0,45,48,null,null],[100,0,40,43,null,null],[96,0,40,43,null,null],[97,0,44,46,null,null],[97,0,45,43,null,null]],\\&quot;trainName\\&quot;:\\&quot;BasicTestOfSlowMuscle\\&quot;}',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000641s ]
+[ sql ] [ SQL ] SELECT `id` FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `id` FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train` [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT `id` FROM `train` WHERE  `category` = 'BasicTestOfSlowMuscle' LIMIT 1 [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `train_record` [ RunTime:0.000531s ]
+[ sql ] [ SQL ] INSERT INTO `train_record` (`user_id` , `devices_id` , `train_id` , `standard_data` , `test_data` , `score` , `round` , `create_time`) VALUES (2 , 1 , 1 , '[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2.5,5,7.5,10,12.5,15,17.5,20,22.5,25,27.5,30,32.5,35,37.5,40,42.5,45,47.5,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,47.5,45,42.5,40,37.5,35,32.5,30,27.5,25,22.5,20,17.5,15,12.5,10,7.5,5,2.5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]' , '[[0,0,0,0,0,-0.40000000000000002,-0.40000000000000002,0,0,0,-0.40000000000000002,0,0,0,0,0,-0.40000000000000002,-0.40000000000000002,0,0,0,-0.40000000000000002,-0.40000000000000002,0,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,0,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,0,0,0,0,0,0,0,0,0,-0.40000000000000002,0,0,0,-0.40000000000000002,0,0,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,0],[0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0,0,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002],[0,0,0,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,0,0,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-0.40000000000000002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1.2,-2.3999999999999999,-2,-2,-2.8000000000000003,-2.8000000000000003,-2.8000000000000003,-3.2000000000000002,-4.7999999999999998,-4.3999999999999995,-3.5999999999999996],[0,1.2,0.80000000000000004,10.800000000000001,15.199999999999999,17.599999999999998,16.400000000000002,14.799999999999999,12,9.1999999999999993,4.3999999999999995,0,-0.80000000000000004,-2,-2.3999999999999999,-1.6000000000000001,-2,-1.6000000000000001,-1.2,-1.6000000000000001,-1.2,-1.2,-1.2,-1.6000000000000001,-2,-1.6000000000000001,-1.2,-1.2,-1.2,-1.2,-1.6000000000000001,-1.6000000000000001,-0.80000000000000004,-1.6000000000000001,-1.6000000000000001,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-0.80000000000000004,-1.2,-0.80000000000000004,-0.80000000000000004,-1.2,-1.2,-1.2,-1.2,-1.2,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-2,-1.6000000000000001,-0.80000000000000004,0.80000000000000004,3.5999999999999996,5.2000000000000002,5.2000000000000002,6.4000000000000004,7.5999999999999996,8,8,8,8,8,8,2.3999999999999999,-0.40000000000000002,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-1.6000000000000001,-2,-2.3999999999999999,-2.3999999999999999,-2.3999999999999999,-2.3999999999999999,-2,-2,-2.3999999999999999,-2,-2.3999999999999999,-2.8000000000000003,-2,-2,-2,-2.3999999999999999,-2.3999999999999999,-2,-2.3999999999999999,-2.3999999999999999,-2.3999999999999999,-2.3999999999999999,-2.8000000000000003,-2.3999999999999999,-2.3999999999999999,-3.2000000000000002,-2.8000000000000003,-2.8000000000000003,-2.3999999999999999,-2,-2,-2.8000000000000003,-2.8000000000000003,-2.3999999999999999,-2.3999999999999999,-2,-2,-2,-2,-2,-2,-1.6000000000000001,-2,-1.6000000000000001,-2,-2,-2.3999999999999999,-2,-2,-2,-2.3999999999999999,-2,-2.3999999999999999,-2.8000000000000003,-2.3999999999999999,-2,-2,-2,-2,-2,-2,-2.8000000000000003,-2,-1.6000000000000001,-2,-1.6000000000000001,-2,-1.6000000000000001,-2,-2.3999999999999999,-2,-2.3999999999999999,-2,-1.2,-2.3999999999999999,-1.6000000000000001,-2,-1.6000000000000001,-1.6000000000000001,-1.6000000000000001,-2,-2,-1.6000000000000001,-2.3999999999999999,-2.3999999999999999,-2,-2,-1.6000000000000001,-1.6000000000000001,-2.3999999999999999,-1.6000000000000001,-2,-2.3999999999999999,-1.6000000000000001,-2,-2,-1.6000000000000001,-1.6000000000000001,-2,-2,-2.3999999999999999,-2.8000000000000003,-2,-2,-2.3999999999999999,-2.3999999999999999,-2,-1.6000000000000001,-1.2,-1.2,-1.6000000000000001,-1.2,-1.2,-1.2,-1.6000000000000001,-1.6000000000000001,-2.8000000000000003,-2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.2,-1.6000000000000001,-1.6000000000000001,-1.6000000000000001,-1.6000000000000001,-1.6000000000000001,-2,-2.3999999999999999,-2.3999999999999999,-2,-1.6000000000000001,-1.2,-1.2,-1.2,-0.80000000000000004],[0,-0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0,0,0,0,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0,-0.40000000000000002,-0.40000000000000002,0,0,0,0,0,0,-0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0,0,0.40000000000000002,0,0,0,0.40000000000000002,0.40000000000000002,0,0,-0.80000000000000004,0,0,0,0,-0.40000000000000002,-0.80000000000000004,-0.80000000000000004,-0.40000000000000002,-0.40000000000000002,0,0,0,-0.40000000000000002,0,-0.80000000000000004,-0.80000000000000004,0,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,0,0,0,-0.40000000000000002,0,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,-0.80000000000000004,-1.2,-1.2,-0.80000000000000004,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,0,0,0,0,-0.40000000000000002,-0.40000000000000002,-0.80000000000000004,0,0,0,0,-0.80000000000000004,-0.80000000000000004,0.40000000000000002,0.40000000000000002,0,0,0,0.40000000000000002,0.40000000000000002,-0.40000000000000002,-0.40000000000000002,0,0.40000000000000002,0,0,0.40000000000000002,0.40000000000000002,0,0,-0.40000000000000002,-0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,-0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0,0,0.40000000000000002,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002],[0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,-1.2,-1.2,-1.6000000000000001,-0.40000000000000002,-0.40000000000000002,0.40000000000000002,3.2000000000000002,3.2000000000000002,3.2000000000000002,6,6.4000000000000004,6.4000000000000004,6.4000000000000004,3.2000000000000002,2,0.40000000000000002,0.40000000000000002,0.80000000000000004,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,0.40000000000000002,0.40000000000000002,0,-0.40000000000000002,0,0,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,-1.6000000000000001,-1.2,-1.2,-1.6000000000000001,-1.6000000000000001,-1.2,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-2,-1.2,-1.6000000000000001,-1.6000000000000001,-2,-1.6000000000000001,-1.6000000000000001,-1.2,-2,-2,-1.6000000000000001,-1.6000000000000001,-2,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-1.2,-1.2,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,-0.80000000000000004,0,0,-0.80000000000000004,-0.40000000000000002,0,-0.40000000000000002,-0.40000000000000002,-0.80000000000000004,0,-0.40000000000000002,0,0,0.40000000000000002,0,0,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,0,-0.40000000000000002,0,0,0,0.40000000000000002,0.40000000000000002,0.40000000000000002,-0.40000000000000002,-0.40000000000000002,-0.40000000000000002,0,0,-0.80000000000000004,-0.40000000000000002,0,0,0.40000000000000002,0,0,-0.40000000000000002,-0.80000000000000004,-0.40000000000000002,-0.40000000000000002,0,-0.40000000000000002,-0.80000000000000004,-0.80000000000000004,-0.40000000000000002,-0.40000000000000002,-0.80000000000000004,-1.6000000000000001,-1.6000000000000001,-1.2,-1.2,-1.2,-1.2,-1.2,-1.6000000000000001,-1.6000000000000001,-1.2,-1.2,-0.80000000000000004,-1.2,-0.80000000000000004]]' , '[[100,0,40,43,null,null],[95,0,45,48,null,null],[100,0,40,43,null,null],[96,0,40,43,null,null],[97,0,44,46,null,null],[97,0,45,43,null,null]]' , 6 , '2020-12-04 12:12:11') [ RunTime:0.000648s ]

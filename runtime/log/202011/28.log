@@ -1,0 +1,1881 @@
+---------------------------------------------------------------
+[2020-11-28T08:52:53+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.023795s] [吞吐率：42.03req/s] [内存消耗：2,823.66kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '245',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryiTGy6zfQ6ZGH4Cyg',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'password' => '123123123',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000280s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = '123123'  AND `password` = '123123123' LIMIT 1 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[2020-11-28T08:53:39+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.025557s] [吞吐率：39.13req/s] [内存消耗：2,823.66kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '246',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBKFvIaI0M2vYQFOe',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123123',
+  'password' => '1231231',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000302s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000619s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = '123123123'  AND `password` = '1231231' LIMIT 1 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[2020-11-28T08:56:16+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.025214s] [吞吐率：39.66req/s] [内存消耗：2,823.85kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9sYRbE8tAIgPE7R6',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000304s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000277s ]
+---------------------------------------------------------------
+[2020-11-28T08:56:57+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.024183s] [吞吐率：41.35req/s] [内存消耗：2,823.87kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaBZoGCesBLxK5v7p',
+  'referer' => 'http://localhost:8080/home/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000774s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000379s ]
+---------------------------------------------------------------
+[2020-11-28T09:42:48+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.024728s] [吞吐率：40.44req/s] [内存消耗：2,823.87kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryFRdV20nbnIo9gRuh',
+  'referer' => 'http://localhost:8080/home/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000297s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000287s ]
+---------------------------------------------------------------
+[2020-11-28T09:45:59+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.025925s] [吞吐率：38.57req/s] [内存消耗：2,823.87kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryn2LIJovTp1PoVAj6',
+  'referer' => 'http://localhost:8080/home/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000335s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000305s ]
+---------------------------------------------------------------
+[2020-11-28T09:46:04+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.024423s] [吞吐率：40.95req/s] [内存消耗：2,823.68kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryYMdT2pFNQsbYd8qA',
+  'referer' => 'http://localhost:8080/home/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'te123123',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000277s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'te123123' LIMIT 1 [ RunTime:0.000272s ]
+---------------------------------------------------------------
+[2020-11-28T09:47:14+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.025294s] [吞吐率：39.53req/s] [内存消耗：2,823.87kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryp1fg5HgXAlnISleU',
+  'referer' => 'http://localhost:8080/home/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000292s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000270s ]
+---------------------------------------------------------------
+[2020-11-28T09:59:18+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.026665s] [吞吐率：37.50req/s] [内存消耗：2,824.02kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypzbVp6JF78e7h8bo',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000342s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000294s ]
+---------------------------------------------------------------
+[2020-11-28T10:04:11+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.025764s] [吞吐率：38.81req/s] [内存消耗：2,824.02kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAr7zBKCTK1kldBSE',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000298s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000597s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000293s ]
+---------------------------------------------------------------
+[2020-11-28T10:06:49+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.024985s] [吞吐率：40.02req/s] [内存消耗：2,824.02kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarya4DgBiGSKEkKe6KI',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000315s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000306s ]
+---------------------------------------------------------------
+[2020-11-28T10:15:11+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.026028s] [吞吐率：38.42req/s] [内存消耗：2,824.02kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarycIcpSvQUTfr1BqXt',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[2020-11-28T10:15:33+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.024838s] [吞吐率：40.26req/s] [内存消耗：2,824.02kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypzrNBYplNRQ8SihO',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[2020-11-28T10:19:28+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.027533s] [吞吐率：36.32req/s] [内存消耗：2,824.02kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryqAakkhqKpnhAJrPe',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000289s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[2020-11-28T10:19:47+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.025991s] [吞吐率：38.47req/s] [内存消耗：2,824.02kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryefB0W2Nn0H50A3g6',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000318s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000288s ]
+---------------------------------------------------------------
+[2020-11-28T10:20:58+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.030645s] [吞吐率：32.63req/s] [内存消耗：2,824.02kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarylu8z5kTaZaplRbYn',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000310s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000629s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[2020-11-28T10:23:32+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.024496s] [吞吐率：40.82req/s] [内存消耗：2,824.02kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAvTqALXJsOY5jq3c',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'TEST',
+  'password' => 'TEST',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000314s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'TEST'  AND `password` = 'TEST' LIMIT 1 [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[2020-11-28T10:24:16+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.024679s] [吞吐率：40.52req/s] [内存消耗：2,824.02kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '238',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryGt6y3LFxu6VAeAZ9',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'password' => 'test',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000300s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test'  AND `password` = 'test' LIMIT 1 [ RunTime:0.000280s ]
+---------------------------------------------------------------
+[2020-11-28T14:22:21+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.015656s] [吞吐率：63.87req/s] [内存消耗：1,636.10kb] [文件加载：62]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '583',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryECQAHujYi4DZZaqw',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123',
+  'sex' => '0',
+  'year' => 'Fri Jan 01 2021 00:00:00 GMT+0800 (中国标准时间)',
+  'password' => 'undefined',
+  'rpassword' => 'undefined',
+)
+[ error ] [0]variable type error： array[/var/www/html/pd/thinkphp/library/think/Response.php:403]
+---------------------------------------------------------------
+[2020-11-28T14:23:11+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1
+[运行时间：0.016362s] [吞吐率：61.12req/s] [内存消耗：1,633.82kb] [文件加载：62]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'accept' => '*/*',
+  'postman-token' => 'bc6c878b-55e4-4d16-92b2-7b370776fbbf',
+  'host' => '106.52.43.100',
+  'accept-encoding' => 'gzip, deflate, br',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+)
+[ error ] [0]variable type error： array[/var/www/html/pd/thinkphp/library/think/Response.php:403]
+---------------------------------------------------------------
+[2020-11-28T14:24:15+08:00] 14.118.228.131 GET 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1
+[运行时间：0.018798s] [吞吐率：53.20req/s] [内存消耗：1,635.28kb] [文件加载：62]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+)
+[ error ] [0]variable type error： array[/var/www/html/pd/thinkphp/library/think/Response.php:403]
+---------------------------------------------------------------
+[2020-11-28T14:25:02+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1
+[运行时间：0.015580s] [吞吐率：64.19req/s] [内存消耗：1,584.70kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'accept' => '*/*',
+  'postman-token' => 'fc00fb2c-2495-4e38-af72-e17e094d9a6c',
+  'host' => '106.52.43.100',
+  'accept-encoding' => 'gzip, deflate, br',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+)
+---------------------------------------------------------------
+[2020-11-28T14:25:10+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014350s] [吞吐率：69.69req/s] [内存消耗：1,586.98kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '583',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryHVaVxODuBmR0UyXV',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123',
+  'sex' => '0',
+  'year' => 'Fri Jan 01 2021 00:00:00 GMT+0800 (中国标准时间)',
+  'password' => 'undefined',
+  'rpassword' => 'undefined',
+)
+---------------------------------------------------------------
+[2020-11-28T14:25:33+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014380s] [吞吐率：69.54req/s] [内存消耗：1,586.98kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '583',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRB9o4O2UjMmWHoYw',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123',
+  'sex' => '0',
+  'year' => 'Fri Jan 01 2021 00:00:00 GMT+0800 (中国标准时间)',
+  'password' => 'undefined',
+  'rpassword' => 'undefined',
+)
+---------------------------------------------------------------
+[2020-11-28T14:25:55+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014144s] [吞吐率：70.70req/s] [内存消耗：1,586.98kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '583',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryAKDJB4DxUyW4FsHd',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123',
+  'sex' => '0',
+  'year' => 'Wed Jan 01 2020 00:00:00 GMT+0800 (中国标准时间)',
+  'password' => 'undefined',
+  'rpassword' => 'undefined',
+)
+---------------------------------------------------------------
+[2020-11-28T14:27:52+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014456s] [吞吐率：69.18req/s] [内存消耗：1,586.98kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '583',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytNrGVzNfT0ARhNQA',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123',
+  'sex' => '0',
+  'year' => 'Wed Jan 01 2020 00:00:00 GMT+0800 (中国标准时间)',
+  'password' => 'undefined',
+  'rpassword' => 'undefined',
+)
+---------------------------------------------------------------
+[2020-11-28T14:28:10+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014795s] [吞吐率：67.59req/s] [内存消耗：1,586.86kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '525',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymDjRBd0uNW0yyqD3',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'sex' => '',
+  'year' => '',
+  'password' => 'undefined',
+  'rpassword' => 'undefined',
+)
+---------------------------------------------------------------
+[2020-11-28T14:30:16+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.015811s] [吞吐率：63.25req/s] [内存消耗：1,586.73kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '519',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryIrteAZ1yxAbB9q6h',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+  'sex' => '',
+  'year' => '',
+  'password' => '111',
+  'rpassword' => 'undefined',
+)
+---------------------------------------------------------------
+[2020-11-28T14:32:18+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014939s] [吞吐率：66.94req/s] [内存消耗：1,586.98kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '571',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryQkboAZ0qu4fSaRgB',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123',
+  'sex' => '1',
+  'year' => 'Fri Jan 01 2021 00:00:00 GMT+0800 (中国标准时间)',
+  'password' => '123',
+  'rpassword' => '123',
+)
+---------------------------------------------------------------
+[2020-11-28T14:46:46+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014506s] [吞吐率：68.94req/s] [内存消耗：1,586.98kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '581',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMsilqBdxoqn1zhOx',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'sex' => '0',
+  'year' => 'Fri Jan 01 2021 00:00:00 GMT+0800 (中国标准时间)',
+  'password' => '1213',
+  'rpassword' => 'undefined',
+)
+---------------------------------------------------------------
+[2020-11-28T14:47:09+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.015326s] [吞吐率：65.25req/s] [内存消耗：1,586.98kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '580',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryxlAlh8YAD72LZje5',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'sex' => '0',
+  'year' => 'Fri Jan 01 2021 00:00:00 GMT+0800 (中国标准时间)',
+  'password' => '123123',
+  'rpassword' => '123123',
+)
+---------------------------------------------------------------
+[2020-11-28T14:50:09+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.015768s] [吞吐率：63.42req/s] [内存消耗：1,586.98kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '583',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary9gggdPQYEYjhGMrg',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'sex' => '0',
+  'year' => 'Fri Jan 01 2021 00:00:00 GMT+0800 (中国标准时间)',
+  'password' => '123123123',
+  'rpassword' => '123123',
+)
+---------------------------------------------------------------
+[2020-11-28T14:50:34+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014735s] [吞吐率：67.87req/s] [内存消耗：1,586.92kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '542',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPlGv8abulLYgmg4E',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'sex' => '0',
+  'year' => '2021010100',
+  'password' => '123123123',
+  'rpassword' => '123123123',
+)
+---------------------------------------------------------------
+[2020-11-28T14:50:57+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014425s] [吞吐率：69.32req/s] [内存消耗：1,586.92kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '537',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryaMsEd5RBY8XUe3kg',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123123',
+  'sex' => '0',
+  'year' => '2021',
+  'password' => '1232312',
+  'rpassword' => '123123123',
+)
+---------------------------------------------------------------
+[2020-11-28T15:16:23+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.017109s] [吞吐率：58.45req/s] [内存消耗：1,586.89kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '532',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjhSVXId1r5sDin7P',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'sex' => '0',
+  'year' => '2021',
+  'password' => '1232312',
+  'rpassword' => '123123123',
+)
+---------------------------------------------------------------
+[2020-11-28T15:17:41+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014206s] [吞吐率：70.39req/s] [内存消耗：1,586.89kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '527',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary5s98qGfapZgzQlYB',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'sex' => '0',
+  'year' => '2021',
+  'password' => '11231',
+  'rpassword' => '123123',
+)
+---------------------------------------------------------------
+[2020-11-28T15:18:14+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.014577s] [吞吐率：68.60req/s] [内存消耗：1,586.89kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '528',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarypZqUDjmZGOPAbRIX',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'sex' => '0',
+  'year' => '2021',
+  'password' => '123123',
+  'rpassword' => '123123',
+)
+---------------------------------------------------------------
+[2020-11-28T15:18:31+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.015410s] [吞吐率：64.89req/s] [内存消耗：1,586.89kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '532',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywPYJGXhdqbqXYchs',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'sex' => '1',
+  'year' => '2021',
+  'password' => '123123',
+  'rpassword' => '12312312',
+)
+---------------------------------------------------------------
+[2020-11-28T15:19:28+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.026541s] [吞吐率：37.68req/s] [内存消耗：2,824.23kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '239',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryX7n3HMHHE8oxd8vZ',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123',
+  'password' => '123123',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000312s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000646s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = '123'  AND `password` = '123123' LIMIT 1 [ RunTime:0.000303s ]
+---------------------------------------------------------------
+[2020-11-28T15:19:54+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.015394s] [吞吐率：64.96req/s] [内存消耗：1,586.89kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '532',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarywTi1mdqPiSRY3f38',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'sex' => '1',
+  'year' => '2021',
+  'password' => '123123',
+  'rpassword' => '12312312',
+)
+---------------------------------------------------------------
+[2020-11-28T15:20:21+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.024585s] [吞吐率：40.68req/s] [内存消耗：2,824.23kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydkdDHRp48fJojoq5',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'password' => '123123',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000317s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = '123123'  AND `password` = '123123' LIMIT 1 [ RunTime:0.000288s ]
+---------------------------------------------------------------
+[2020-11-28T15:20:35+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.025120s] [吞吐率：39.81req/s] [内存消耗：2,824.23kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '242',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8N71VNjLaMeZ8AZa',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'password' => '123123',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000316s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000613s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = '123123'  AND `password` = '123123' LIMIT 1 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[2020-11-28T15:21:34+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.020005s] [吞吐率：49.99req/s] [内存消耗：1,994.45kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '533',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarydJomTKiV0ARKvYnA',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'sex' => '0',
+  'year' => '2021',
+  'password' => '123123',
+  'rpassword' => '123123123',
+)
+[ error ] [8]未定义数组索引: user[/var/www/html/pd/application/api/controller/User.php:46]
+---------------------------------------------------------------
+[2020-11-28T15:22:19+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1&rpassword=123&sex=0&year=2020
+[运行时间：0.017723s] [吞吐率：56.42req/s] [内存消耗：1,992.52kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'accept' => '*/*',
+  'postman-token' => 'b09f11a2-2652-4a36-aa91-0d13ec90786b',
+  'host' => '106.52.43.100',
+  'accept-encoding' => 'gzip, deflate, br',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+  'rpassword' => '123',
+  'sex' => '0',
+  'year' => '2020',
+)
+[ error ] [8]未定义数组索引: user[/var/www/html/pd/application/api/controller/User.php:46]
+---------------------------------------------------------------
+[2020-11-28T15:22:28+08:00] 14.118.228.131 GET 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1&rpassword=123&sex=0&year=2020
+[运行时间：0.018391s] [吞吐率：54.37req/s] [内存消耗：1,993.85kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+  'rpassword' => '123',
+  'sex' => '0',
+  'year' => '2020',
+)
+[ error ] [8]未定义数组索引: user[/var/www/html/pd/application/api/controller/User.php:46]
+---------------------------------------------------------------
+[2020-11-28T15:23:12+08:00] 14.118.228.131 GET 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1&rpassword=123&sex=0&year=2020
+[运行时间：0.025176s] [吞吐率：39.72req/s] [内存消耗：2,822.57kb] [文件加载：75]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+  'rpassword' => '123',
+  'sex' => '0',
+  'year' => '2020',
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [0]method not exist:app\common\model\User->1[/var/www/html/pd/thinkphp/library/think/db/Query.php:180]
+---------------------------------------------------------------
+[2020-11-28T15:24:08+08:00] 14.118.228.131 GET 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1&rpassword=123&sex=0&year=2020
+[运行时间：0.015634s] [吞吐率：63.96req/s] [内存消耗：1,593.91kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+  'rpassword' => '123',
+  'sex' => '0',
+  'year' => '2020',
+)
+---------------------------------------------------------------
+[2020-11-28T15:24:33+08:00] 14.118.228.131 GET 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1&rpassword=123&sex=0&year=2020
+[运行时间：0.014690s] [吞吐率：68.07req/s] [内存消耗：1,574.86kb] [文件加载：59]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+  'rpassword' => '123',
+  'sex' => '0',
+  'year' => '2020',
+)
+---------------------------------------------------------------
+[2020-11-28T15:25:28+08:00] 14.118.228.131 GET 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1&rpassword=123&sex=0&year=2020
+[运行时间：0.024759s] [吞吐率：40.39req/s] [内存消耗：2,830.69kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+  'rpassword' => '123',
+  'sex' => '0',
+  'year' => '2020',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000304s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000583s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = '1' LIMIT 1 [ RunTime:0.000269s ]
+---------------------------------------------------------------
+[2020-11-28T15:25:39+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.026171s] [吞吐率：38.21req/s] [内存消耗：2,831.10kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '533',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryPa12AXUUQA9ANIL3',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123123',
+  'sex' => '0',
+  'year' => '2021',
+  'password' => '123123',
+  'rpassword' => '123123123',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000323s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = '123123' LIMIT 1 [ RunTime:0.000282s ]
+---------------------------------------------------------------
+[2020-11-28T15:26:24+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.025763s] [吞吐率：38.82req/s] [内存消耗：2,831.30kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '528',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarygT6aKuHs6gyvFArh',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'sex' => '0',
+  'year' => '2021',
+  'password' => '123456',
+  'rpassword' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000348s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test' LIMIT 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[2020-11-28T15:26:30+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.025145s] [吞吐率：39.77req/s] [内存消耗：2,831.30kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '528',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryr2YyugfGtiR3IgSO',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test',
+  'sex' => '0',
+  'year' => '2021',
+  'password' => '123456',
+  'rpassword' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000287s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test' LIMIT 1 [ RunTime:0.000284s ]
+---------------------------------------------------------------
+[2020-11-28T15:26:42+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.028733s] [吞吐率：34.80req/s] [内存消耗：2,797.29kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '530',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjiBH6PNocaMUHsx7',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test01',
+  'sex' => '0',
+  'year' => '2021',
+  'password' => '123456',
+  'rpassword' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test01' LIMIT 1 [ RunTime:0.000274s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`name` , `sex` , `year` , `password`) VALUES ('test01' , 0 , '2021' , '123456') [ RunTime:0.000262s ]
+---------------------------------------------------------------
+[2020-11-28T15:28:09+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.032168s] [吞吐率：31.09req/s] [内存消耗：2,797.23kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '526',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryy8qwE4fQ9W97JkUu',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test02',
+  'sex' => '1',
+  'year' => '2020',
+  'password' => '1234',
+  'rpassword' => '1234',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000336s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test02' LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`name` , `sex` , `year` , `password`) VALUES ('test02' , 1 , '2020' , '1234') [ RunTime:0.000246s ]
+---------------------------------------------------------------
+[2020-11-28T15:30:29+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.029897s] [吞吐率：33.45req/s] [内存消耗：2,797.23kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '526',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarymoSk2WbjAuKIlygM',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test03',
+  'sex' => '1',
+  'year' => '2021',
+  'password' => '1234',
+  'rpassword' => '1234',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000346s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test03' LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`name` , `sex` , `year` , `password`) VALUES ('test03' , 1 , '2021' , '1234') [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[2020-11-28T15:31:38+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.037265s] [吞吐率：26.83req/s] [内存消耗：2,797.23kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '526',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryBO6H5sV3jmXINbpZ',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test04',
+  'sex' => '1',
+  'year' => '2021',
+  'password' => '1234',
+  'rpassword' => '1234',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test04' LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`name` , `sex` , `year` , `password`) VALUES ('test04' , 1 , '2021' , '1234') [ RunTime:0.000578s ]
+---------------------------------------------------------------
+[2020-11-28T15:31:50+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_login_api
+[运行时间：0.023628s] [吞吐率：42.32req/s] [内存消耗：2,831.94kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '240',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLoO0o8yKBIF8BFfc',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test04',
+  'password' => '1234',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000325s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test04'  AND `password` = '1234' LIMIT 1 [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[2020-11-28T15:38:31+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1&rpassword=123&sex=0&year=2020
+[运行时间：0.014572s] [吞吐率：68.63req/s] [内存消耗：1,562.94kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'accept' => '*/*',
+  'postman-token' => '96a80d11-07a3-41b5-9d45-dbc1592bffb8',
+  'host' => '106.52.43.100',
+  'accept-encoding' => 'gzip, deflate, br',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+  'rpassword' => '123',
+  'sex' => '0',
+  'year' => '2020',
+)
+---------------------------------------------------------------
+[2020-11-28T15:38:46+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1&rpassword=123&sex=0&year=2020
+[运行时间：0.014359s] [吞吐率：69.64req/s] [内存消耗：1,562.94kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'accept' => '*/*',
+  'postman-token' => '69e77b25-0ef3-41ca-924e-a077089f6a4b',
+  'host' => '106.52.43.100',
+  'accept-encoding' => 'gzip, deflate, br',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+  'rpassword' => '123',
+  'sex' => '0',
+  'year' => '2020',
+)
+---------------------------------------------------------------
+[2020-11-28T15:39:02+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api?name=1&password=1&rpassword=123&sex=0&year=2020
+[运行时间：0.013768s] [吞吐率：72.63req/s] [内存消耗：1,562.94kb] [文件加载：58]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'accept' => '*/*',
+  'postman-token' => '74a1f570-14c7-4be2-baef-95d55153dabb',
+  'host' => '106.52.43.100',
+  'accept-encoding' => 'gzip, deflate, br',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+  'password' => '1',
+  'rpassword' => '123',
+  'sex' => '0',
+  'year' => '2020',
+)
+---------------------------------------------------------------
+[2020-11-28T15:40:13+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/user/user_register_api
+[运行时间：0.032315s] [吞吐率：30.95req/s] [内存消耗：2,799.26kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '526',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryyRwAYqsmft6L0kB4',
+  'referer' => 'http://localhost:8080/home/@/views/user/pages/Index/index.vue',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'test05',
+  'sex' => '1',
+  'year' => '2021',
+  'password' => '1234',
+  'rpassword' => '1234',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000387s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `name` = 'test05' LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`name` , `sex` , `year` , `password` , `create_time`) VALUES ('test05' , 1 , '2021' , '1234' , '2020-11-28 15:40:13') [ RunTime:0.000317s ]
+---------------------------------------------------------------
+[2020-11-28T17:30:34+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/devices/devices_register_api?name=1
+[运行时间：0.015543s] [吞吐率：64.34req/s] [内存消耗：1,641.48kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'accept' => '*/*',
+  'postman-token' => '7cbe7c02-21d6-45f4-86be-749dc51455a9',
+  'host' => '106.52.43.100',
+  'accept-encoding' => 'gzip, deflate, br',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+)
+[ error ] [0]致命错误: Call to undefined method app\api\controller\Devices::get()[/var/www/html/pd/application/api/controller/Devices.php:17]
+---------------------------------------------------------------
+[2020-11-28T17:30:49+08:00] 14.118.228.131 GET 106.52.43.100/pd/public/api.php/devices/devices_register_api?name=1
+[运行时间：0.015702s] [吞吐率：63.69req/s] [内存消耗：1,642.95kb] [文件加载：63]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+)
+[ error ] [0]致命错误: Call to undefined method app\api\controller\Devices::get()[/var/www/html/pd/application/api/controller/Devices.php:17]
+---------------------------------------------------------------
+[2020-11-28T17:31:32+08:00] 14.118.228.131 GET 106.52.43.100/pd/public/api.php/devices/devices_register_api?name=1
+[运行时间：0.026898s] [吞吐率：37.18req/s] [内存消耗：2,823.52kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000344s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = '1' LIMIT 1 [ RunTime:0.000291s ]
+---------------------------------------------------------------
+[2020-11-28T17:32:41+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/devices/devices_register_api
+[运行时间：0.023800s] [吞吐率：42.02req/s] [内存消耗：2,823.72kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '138',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryRtuRcwDJ4jLd0KLx',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000305s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = '123' LIMIT 1 [ RunTime:0.000265s ]
+---------------------------------------------------------------
+[2020-11-28T17:34:28+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/devices/devices_register_api
+[运行时间：0.025640s] [吞吐率：39.00req/s] [内存消耗：2,823.72kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '138',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarySQ5LsrRcaRZAv3ly',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '123',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000294s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000654s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = '123' LIMIT 1 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[2020-11-28T17:34:42+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/devices/devices_register_api
+[运行时间：0.024165s] [吞吐率：41.38req/s] [内存消耗：2,823.72kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '136',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryScNEap9eyXfhTONw',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'W',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000325s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = 'W' LIMIT 1 [ RunTime:0.000271s ]
+---------------------------------------------------------------
+[2020-11-28T17:34:52+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/devices/devices_register_api
+[运行时间：0.024654s] [吞吐率：40.56req/s] [内存消耗：2,823.72kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '135',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryi2kGAyctgqA6KhYZ',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = '' LIMIT 1 [ RunTime:0.000299s ]
+---------------------------------------------------------------
+[2020-11-28T17:35:12+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/devices/devices_register_api
+[运行时间：0.024822s] [吞吐率：40.29req/s] [内存消耗：2,823.76kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '145',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary8AVwXIbSsPEwSg03',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'KHY-PD-111',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000265s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000609s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = 'KHY-PD-111' LIMIT 1 [ RunTime:0.000276s ]
+---------------------------------------------------------------
+[2020-11-28T17:45:44+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/devices/devices_register_api
+[运行时间：0.023719s] [吞吐率：42.16req/s] [内存消耗：2,823.77kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '148',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryjBMAdCJdgDINBhDw',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'KHY-PD-000000',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000302s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = 'KHY-PD-000000' LIMIT 1 [ RunTime:0.000245s ]
+---------------------------------------------------------------
+[2020-11-28T17:46:06+08:00] 14.118.228.131 POST 106.52.43.100/pd/public/api.php/devices/devices_register_api
+[运行时间：0.030658s] [吞吐率：32.62req/s] [内存消耗：2,788.95kb] [文件加载：71]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ BIND ] 'api'
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '106.52.43.100',
+  'connection' => 'keep-alive',
+  'content-length' => '150',
+  'accept' => 'application/json, text/plain, */*',
+  'origin' => 'http://localhost:8080',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) vue_ui_test/0.1.0 Chrome/80.0.3987.163 Electron/8.5.3 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary0LvvwopHmM1BrvN6',
+  'referer' => 'http://localhost:8080/',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN',
+)
+[ info ] [ PARAM ] array (
+  'name' => 'KHY-PD-1-000000',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000345s ] mysql:host=localhost;port=3306;dbname=pd;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `devices` [ RunTime:0.000627s ]
+[ sql ] [ SQL ] SELECT * FROM `devices` WHERE  `name` = 'KHY-PD-1-000000' LIMIT 1 [ RunTime:0.000271s ]
+[ sql ] [ SQL ] INSERT INTO `devices` (`name`) VALUES ('KHY-PD-1-000000') [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[2020-11-28T17:57:59+08:00] 220.194.106.61 GET 106.52.43.100http://106.52.43.100/pd/public/index.php/api/user/user_login_api?name%3D1%26password%3D1
+[运行时间：0.017290s] [吞吐率：57.84req/s] [内存消耗：1,655.19kb] [文件加载：64]
+[ info ] [ LANG ] /var/www/html/pd/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-encoding' => 'gzip',
+  'cookie' => 'IPLOC=CN1200; IPISP=ISP; ASP.NET_SessionId=u5rqm1tm2rdhhxfavoeu5gww; PHPSESSID=0tu5hlohdqa4f6gl7jjnh47mq1; _d_id=077b0ba692a46f459209735f44f309; lg=cn; JSESSIONID=F717C8D22C756B744290DFB99AE8D979; InitSiteID=21659; SiteType=0; IsDefaultLang=1; WUserID=14779656939796; Lang=cn; yz_site=isSite; X_CACHE_KEY=6edb7ca7fec270a25955811b49ceaaa8; real_ipd=220.194.106.61; ECS_ID=9288d4514243c87f9255f9a3141118af4b305344; randnumber=952; ASPSESSIONIDSQQQBQST=AIJAKOABJEBOMENGPJCCJIJJ; G1gn_2132_saltkey=t4j4bs9Q; G1gn_2132_lastvisit=1606553677; G1gn_2132_sid=z8QpLP; G1gn_2132_lastact=1606557277%09forum.php%09viewthread; G1gn_2132_st_p=0%7C1606557277%7C273d46c18e3b172b463fcbc86b80dcf8; G1gn_2132_viewid=tid_1445337; mid=YrhJUG; DRJt_2132_saltkey=vBL69yFW; DRJt_2132_lastvisit=1606553702; DRJt_2132_sid=qkXn46; DRJt_2132_lastact=1606557302%09home.php%09space; DRJt_2132_home_diymode=1; ZDEDebuggerPresent="php,phtml,php3"; whatsnssid=41ad320ff28e429e; ABTEST=0|1606557346|v17; tgw_l7_route=6ca407d01a1e82cc5fb836a867b8798f; 1a7L_2132_saltkey=nFqHHWR2; 1a7L_2132_lastvisit=1606553756; 1a7L_2132_sid=HHZxgt; 1a7L_2132_lastact=1606557356%09home.php%09; 1a7L_2132_home_readfeed=1606557356; ASPSESSIONIDSSRQCRSR=OJBDFPABLDJBHMKLICMJDJEG; security_session_verify=92c8e20d1c49b1cd2d97b7a9e8663335; cookie_have_seen_product=335527; __cdnuid_h=053286d5bb0bfbe99d37b8e6d21b346a; youdianinfo_historycn=22457; __jsluid_h=94fd4474eb87b5d131d4d474a6a10e78; connect.sid=s%3AIlSdEJLp0sNsdRyxYSwkQR_fyaHYt1WH.AYTCuT5KdhT6ysow%2B8%2BEvqSfxrsTN%2BUiVJHiV2g24bA',
+  'host' => '106.52.43.100',
+  'q-sub-business' => 'contentsecurity',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:57.0) Gecko/20100101 Firefox/57.0',
+)
+[ info ] [ PARAM ] array (
+  'name=1&password=1' => '',
+)
+[ error ] [8]未定义数组索引: name[/var/www/html/pd/application/api/controller/User.php:19]
